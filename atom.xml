@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-01-29T11:59:48.000Z</updated>
+  <updated>2017-01-29T15:25:05.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -14,6 +14,107 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>茫茫網誌系統中遇見Hexo</title>
+    <link href="http://xiaocrab.net/posts/%E8%8C%AB%E8%8C%AB%E9%83%A8%E8%90%BD%E6%A0%BC%E7%B3%BB%E7%B5%B1%E4%B8%AD%E9%81%87%E8%A6%8BHexo/"/>
+    <id>http://xiaocrab.net/posts/茫茫部落格系統中遇見Hexo/</id>
+    <published>2017-01-27T16:00:00.000Z</published>
+    <updated>2017-01-29T15:25:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center">快速、簡單且強大的網誌框架<br>——Hexo.io</blockquote>
+
+<h1 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h1><p>前一段時間，我的 VPS 沒有及時交費，結果被強制停機。續費之後，訪問我的 WordPress 網站結果提示<code>db connection error</code>錯誤。。。Oh，該死的數據庫！加之 WordPress 是出了名的「臃腫」，訪問的速度非常慢。我便心生了換一個網誌系統的念頭。</p>
+<a id="more"></a>
+<h1 id="尋找"><a href="#尋找" class="headerlink" title="尋找"></a>尋找</h1><p>既然是重新尋找一個合適的網誌系統，那麽我對它的基本要求是：</p>
+<ol>
+<li><strong>開源</strong>：開源是最起碼的要求，不然還有什麼自建的意義嘞</li>
+<li><strong>支持<code>Markdown</code></strong>：Markdown 的好處不必說，用過一次就忘不了</li>
+<li><strong>使用和維護簡單</strong>：寫篇文章要各種登錄，各種設置，然後三天兩頭出問題，這種系統我是受不了的</li>
+</ol>
+<p>按照這個要求展開尋找之後我做了一個簡單的表格出來，全是開源的系統。</p>
+<table>
+<thead>
+<tr>
+<th>系統</th>
+<th>環境</th>
+<th>原生 Markdown</th>
+<th>維護難度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WordPress</td>
+<td>PHP+DB</td>
+<td></td>
+<td>❤︎❤︎❤︎❤︎</td>
+</tr>
+<tr>
+<td>Ghost</td>
+<td>Node.js+DB</td>
+<td>Yes</td>
+<td>❤︎❤︎❤︎</td>
+</tr>
+<tr>
+<td>Typecho</td>
+<td>PHP+DB</td>
+<td>Yes</td>
+<td>❤︎❤︎❤︎</td>
+</tr>
+<tr>
+<td>Jekyll</td>
+<td>Ruby</td>
+<td>Yes</td>
+<td>❤︎❤︎❤︎</td>
+</tr>
+<tr>
+<td>Hexo</td>
+<td>Node.js</td>
+<td>Yes</td>
+<td>❤︎</td>
+</tr>
+</tbody>
+</table>
+<p>通過以上的比較（雖然不是很準確），可以發現他們幾乎都要使用數據庫來存儲檔案，這就給維護帶來了一定的困難。</p>
+<p>對於網誌系統來說，不用數據庫也行的，反而速度更快。網誌的內容不頻繁更新，最多一天就更新幾次，其餘的時間一直都沒變。多數使用了數據庫的網誌系統，為了加快頁面解析的速度，減小伺服器的負擔，做了「靜態化」的處理。</p>
+<p>沒有數據庫，減少了對環境的依賴。要使用數據庫首先得安裝配置一個數據庫，然後還要連接數據庫，接著對數據庫進行操作、幾乎一切的配置和數據都存儲在數據庫裏面啊，整個系統都要依賴與數據庫才能運行。數據庫一但數據歇菜了，整個網站立馬就癱瘓！</p>
+<h1 id="找到了！"><a href="#找到了！" class="headerlink" title="找到了！"></a>找到了！</h1><p>Hexo是一個出自台灣<a href="https://github.com/tommy351" target="_blank" rel="external">tommy351</a>大神之手，基於Node.js的輕量級<strong>靜態</strong>網誌系統。</p>
+<p>它</p>
+<ol>
+<li><strong>採用<code>Markdown</code>撰寫文章</strong>：撰寫方便，符合潮流</li>
+<li><strong>沒有使用數據庫</strong>：配置文件主要是<code>*.yml</code>格式，用文本編輯器就能編輯配置</li>
+<li><strong>靜態的系統</strong>：訪問的速度快！快！快！</li>
+<li><strong>資源豐富，易於維護</strong>：它的官方網站上已經提供了非常詳細的說明，還有豐富的主題和插件的支持。日常使用只需要幾條命令（甚至是全自動）就能完成文章的發佈</li>
+</ol>
+<blockquote>
+<p>這簡直是一個完美的網誌系統啊！</p>
+</blockquote>
+<h1 id="動手！"><a href="#動手！" class="headerlink" title="動手！"></a>動手！</h1><p>官方網站是 <a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a> ，提供了多語種的支持。強烈推薦按照官方網站上的步驟來安裝配置Hexo，民間網誌上可能版本老舊或是作者的粗心大意會有些坑，切記，切記。安裝 Hexo，大致需要 Node.js、git 環境，沒錯就是這麽簡約！</p>
+<p>裝好系統之後，開始安裝主題。推薦 NexT 主題，官方網站 是<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">http://theme-next.iissnan.com/</a> 。製作精良，支持完善，同樣的還是建議到它的官網網站上去按照步驟做。</p>
+<p>這樣不出意外的話，整個系統就可以開始用了。你可以把 Hexo 發佈到自己的 Github Pags、或者是自己的 VPS。</p>
+<p>正如它的官網介紹那樣說的「快速、簡單且強大的網誌系統」就配置好了！</p>
+<h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><h2 id="Hexo-admin插件：在本地瀏覽器上編輯文章"><a href="#Hexo-admin插件：在本地瀏覽器上編輯文章" class="headerlink" title="Hexo-admin插件：在本地瀏覽器上編輯文章"></a>Hexo-admin插件：在本地瀏覽器上編輯文章</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install --save hexo-admin</div><div class="line"># 更多介紹 https://github.com/jaredly/hexo-admin</div></pre></td></tr></table></figure>
+<p>不斷更新中</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;快速、簡單且強大的網誌框架&lt;br&gt;——Hexo.io&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;緣起&quot;&gt;&lt;a href=&quot;#緣起&quot; class=&quot;headerlink&quot; title=&quot;緣起&quot;&gt;&lt;/a&gt;緣起&lt;/h1&gt;&lt;p&gt;前一段時間，我的 VPS 沒有及時交費，結果被強制停機。續費之後，訪問我的 WordPress 網站結果提示&lt;code&gt;db connection error&lt;/code&gt;錯誤。。。Oh，該死的數據庫！加之 WordPress 是出了名的「臃腫」，訪問的速度非常慢。我便心生了換一個網誌系統的念頭。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="Blog" scheme="http://xiaocrab.net/tags/Blog/"/>
+    
+      <category term="Hexo" scheme="http://xiaocrab.net/tags/Hexo/"/>
+    
+      <category term="Find" scheme="http://xiaocrab.net/tags/Find/"/>
+    
+  </entry>
   
   <entry>
     <title>公共DNS伺服器推薦</title>
@@ -131,10 +232,11 @@
     <link href="http://xiaocrab.net/posts/%E5%86%8D%E8%A6%8B%E4%BA%86%EF%BC%8CQQ%E7%A9%BA%E9%96%93/"/>
     <id>http://xiaocrab.net/posts/再見了，QQ空間/</id>
     <published>2016-07-21T16:00:00.000Z</published>
-    <updated>2017-01-29T12:06:38.000Z</updated>
+    <updated>2017-01-29T13:56:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>自 2007 年第一篇日誌發佈到現在已經 9 年多了，當時只是爲了「點亮圖標」而開通。</p>
 <p>漸漸地，在那裏累計了日誌 240 餘篇，圖片 1000 餘張，說說 800 餘條……但有價值的東西其實很少。甚至還有幾段時間，每天把大部分時間都花在了它身上……浪費了不少時間。</p>
+<a id="more"></a>
 <p>QQ 空間從發佈到現在已經經歷了好幾次比較大的改版，但是直到現在，我在 6 年前提出的不足之處仍然沒有解決。它獲得大量的流量完全是靠與 QQ 客戶端的集成，在功能上沒有亮點。</p>
 <p>隨着 SNS 軟件的多元化，QQ 早已不是每個人必須的 SNS 軟件，甚至好多人早已放棄使用 QQ。這就意味着，我如果把這篇文章發表在 QQ 空間的話，只有爲數不多的，至今還在使用 QQ 及 QQ 空間服務的人才能看到。它顯然已經沒有了往日的豐華，是時候該放棄了。</p>
 <p>其實在去年我已經放棄了 QQ 空間，只是還沒下手徹底關閉它。</p>
@@ -147,7 +249,7 @@
     <summary type="html">
     
       &lt;p&gt;自 2007 年第一篇日誌發佈到現在已經 9 年多了，當時只是爲了「點亮圖標」而開通。&lt;/p&gt;
-&lt;p&gt;漸漸地，在那裏累計了日誌 240 餘篇，圖片 1000 餘張，說說 800 餘條……但有價值的東西其實很少。甚至還有幾段時間，每天把大部分時間都花在了它身上……浪費了不少時
+&lt;p&gt;漸漸地，在那裏累計了日誌 240 餘篇，圖片 1000 餘張，說說 800 餘條……但有價值的東西其實很少。甚至還有幾段時間，每天把大部分時間都花在了它身上……浪費了不少時間。&lt;/p&gt;
     
     </summary>
     
