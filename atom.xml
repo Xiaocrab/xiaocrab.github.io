@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>xiaocrab.net</title>
-  
+  <subtitle>中文站</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-01-29T11:10:01.000Z</updated>
+  <updated>2017-01-29T11:59:48.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
-    <name>xiaocrab</name>
+    <name>Xiaocrab</name>
     
   </author>
   
@@ -20,7 +20,7 @@
     <link href="http://xiaocrab.net/posts/%E5%85%AC%E5%85%B1DNS%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%8E%A8%E8%96%A6/"/>
     <id>http://xiaocrab.net/posts/公共DNS伺服器推薦/</id>
     <published>2016-08-01T07:00:00.000Z</published>
-    <updated>2017-01-29T11:10:01.000Z</updated>
+    <updated>2017-01-29T11:59:48.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>拒絕 DNS 劫持，請設置安全可靠的 DNS 伺服器！</p>
@@ -123,6 +123,42 @@
       <category term="DNS" scheme="http://xiaocrab.net/tags/DNS/"/>
     
       <category term="Network" scheme="http://xiaocrab.net/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再見了，QQ 空間</title>
+    <link href="http://xiaocrab.net/posts/%E5%86%8D%E8%A6%8B%E4%BA%86%EF%BC%8CQQ-%E7%A9%BA%E9%96%93/"/>
+    <id>http://xiaocrab.net/posts/再見了，QQ-空間/</id>
+    <published>2016-07-21T16:00:00.000Z</published>
+    <updated>2017-01-29T12:06:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自 2007 年第一篇日誌發佈到現在已經 9 年多了，當時只是爲了「點亮圖標」而開通。</p>
+<p>漸漸地，在那裏累計了日誌 240 餘篇，圖片 1000 餘張，說說 800 餘條……但有價值的東西其實很少。甚至還有幾段時間，每天把大部分時間都花在了它身上……浪費了不少時間。</p>
+<p>QQ 空間從發佈到現在已經經歷了好幾次比較大的改版，但是直到現在，我在 6 年前提出的不足之處仍然沒有解決。它獲得大量的流量完全是靠與 QQ 客戶端的集成，在功能上沒有亮點。</p>
+<p>隨着 SNS 軟件的多元化，QQ 早已不是每個人必須的 SNS 軟件，甚至好多人早已放棄使用 QQ。這就意味着，我如果把這篇文章發表在 QQ 空間的話，只有爲數不多的，至今還在使用 QQ 及 QQ 空間服務的人才能看到。它顯然已經沒有了往日的豐華，是時候該放棄了。</p>
+<p>其實在去年我已經放棄了 QQ 空間，只是還沒下手徹底關閉它。</p>
+<p>終於，我做出了一個艱難的決定：<strong>2016年8月1日正式關閉我的 QQ 空間</strong></p>
+<p>可能以後也不會重新開通。</p>
+<p>依據「斷 · 舍 · 離」的思想，無用的東西應該及時放棄，才能享受自由的生活，否則它只能是個累贅，沒有絲毫好處。</p>
+<p>歡迎訪問 <a href="https://www.xiaocrab.net/" target="_blank" rel="external">https://www.xiaocrab.net/</a> ，一個新的時代在這裏。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自 2007 年第一篇日誌發佈到現在已經 9 年多了，當時只是爲了「點亮圖標」而開通。&lt;/p&gt;
+&lt;p&gt;漸漸地，在那裏累計了日誌 240 餘篇，圖片 1000 餘張，說說 800 餘條……但有價值的東西其實很少。甚至還有幾段時間，每天把大部分時間都花在了它身上……浪費了不少時
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="Think" scheme="http://xiaocrab.net/tags/Think/"/>
+    
+      <category term="Byebye" scheme="http://xiaocrab.net/tags/Byebye/"/>
+    
+      <category term="QQ空間" scheme="http://xiaocrab.net/tags/QQ%E7%A9%BA%E9%96%93/"/>
     
   </entry>
   
