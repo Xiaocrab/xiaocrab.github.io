@@ -86,28 +86,31 @@
 
 
 
-<meta name="description" content="macOS 通過 hibernatemode 來設置系統的休眠方式
+<meta name="description" content="macOS 通過pmset命令設置hibernatemode的值來調整系統睡眠方式。
+以下內容翻譯自pmset命令的幫助文件（可以運行man pmset查看）
 
 macOS 安全休眠說明
-hibernatemode 支持的值有 0、3和25。macOS 是否寫入休眠映像文件同時也取決于 standby 和 autopoweroff 的值。
-例如，對於支持休眠的台式電腦將在 standby 設置的時間之後寫入休眠映像文件。要完全禁止休眠映像，請確保 hibernatemode，standb">
+hibernatemode 可以設置的值有 0、3和25。macOS 是否寫入休眠映像文件到硬盤也同時取決于 standby 和 autopoweroff 的值。
+例如，對於支持休眠的台式電腦將在 standby">
 <meta property="og:type" content="article">
 <meta property="og:title" content="macOS Sierra 睡眠方式設置">
 <meta property="og:url" content="http://xiaocrab.net/posts/f8a16df0/index.html">
 <meta property="og:site_name" content="xiaocrab.net">
-<meta property="og:description" content="macOS 通過 hibernatemode 來設置系統的休眠方式
+<meta property="og:description" content="macOS 通過pmset命令設置hibernatemode的值來調整系統睡眠方式。
+以下內容翻譯自pmset命令的幫助文件（可以運行man pmset查看）
 
 macOS 安全休眠說明
-hibernatemode 支持的值有 0、3和25。macOS 是否寫入休眠映像文件同時也取決于 standby 和 autopoweroff 的值。
-例如，對於支持休眠的台式電腦將在 standby 設置的時間之後寫入休眠映像文件。要完全禁止休眠映像，請確保 hibernatemode，standb">
-<meta property="og:updated_time" content="2017-02-03T07:01:22.000Z">
+hibernatemode 可以設置的值有 0、3和25。macOS 是否寫入休眠映像文件到硬盤也同時取決于 standby 和 autopoweroff 的值。
+例如，對於支持休眠的台式電腦將在 standby">
+<meta property="og:updated_time" content="2017-02-03T15:33:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="macOS Sierra 睡眠方式設置">
-<meta name="twitter:description" content="macOS 通過 hibernatemode 來設置系統的休眠方式
+<meta name="twitter:description" content="macOS 通過pmset命令設置hibernatemode的值來調整系統睡眠方式。
+以下內容翻譯自pmset命令的幫助文件（可以運行man pmset查看）
 
 macOS 安全休眠說明
-hibernatemode 支持的值有 0、3和25。macOS 是否寫入休眠映像文件同時也取決于 standby 和 autopoweroff 的值。
-例如，對於支持休眠的台式電腦將在 standby 設置的時間之後寫入休眠映像文件。要完全禁止休眠映像，請確保 hibernatemode，standb">
+hibernatemode 可以設置的值有 0、3和25。macOS 是否寫入休眠映像文件到硬盤也同時取決于 standby 和 autopoweroff 的值。
+例如，對於支持休眠的台式電腦將在 standby">
 
 
 
@@ -414,23 +417,33 @@ hibernatemode 支持的值有 0、3和25。macOS 是否寫入休眠映像文件�
       
 
       
-        <p>macOS 通過 hibernatemode 來設置系統的休眠方式</p>
+        <p>macOS 通過<code>pmset</code>命令設置<code>hibernatemode</code>的值來調整系統睡眠方式。</p>
+<p>以下內容翻譯自<code>pmset</code>命令的幫助文件（可以運行<code>man pmset</code>查看）</p>
 <blockquote>
-<p>macOS 安全休眠說明</p>
-<p><u>hibernatemode</u> 支持的值有 0、3和25。macOS 是否寫入休眠映像文件同時也取決于 <u>standby</u> 和 <u>autopoweroff</u> 的值。</p>
+<p><strong>macOS 安全休眠說明</strong></p>
+<p><u>hibernatemode</u> 可以設置的值有 0、3和25。macOS 是否寫入休眠映像文件到硬盤也同時取決于 <u>standby</u> 和 <u>autopoweroff</u> 的值。</p>
 <p>例如，對於支持休眠的台式電腦將在 <u>standby</u> 設置的時間之後寫入休眠映像文件。要完全禁止休眠映像，請確保 <u>hibernatemode</u>，<u>standby</u> 和 <u>autopoweroff</u> 的值都要設置為 0。</p>
-<p>For example, on desktops that support <u>standby</u> a hibernation image will be written after the specified <u>standbydelay</u> time. To disable hibernation images completely, ensure <u>hibernatemode</u> <u>standby</u> and <u>autopoweroff</u> are all set to 0.</p>
-<p>hibernatemode = 0 是桌面電腦的默認設置。系統不會將內存備份到硬盤上。系統必須從內存中的內容喚醒；如果掉電，將丟失內容。這是一種舊的睡眠設置。</p>
-<p><u>hibernatemode = 0</u> by default on desktops. The system will not back memory up to persistent storage. The system must wake from the contents of memory; the system will lose context on power loss. This is, historically, plain old sleep. </p>
-<p>hibernatemode = 3 是便攜電腦的默認設置。系統將存儲一份內存的副本到硬盤上，並將保持內存的供電。系統將會從內存恢復，除非掉電迫使從休眠映像恢復。</p>
-<p><u>hibernatemode = 3</u> by default on portables. The system will store a copy of memory to persistent storage (the disk), and will power memory during sleep. The system will wake from memory, unless a power loss forces it to restore from hibernate image.</p>
-<p>hibernatemode = 25 只能通過 pmset 命令來設置。系統將存儲一份內存的副本到硬盤上，並將切斷內存的供電。系統將從硬盤映像恢復。如果你想以較慢的速度睡眠、較慢的速度恢復和更長的電池壽命，你可以使用這個設置。</p>
-<p><u>hibernatemode = 25</u> is only settable via pmset. The system will store a copy of memory to persistent storage (the disk), and will remove power to memory. The system will restore from disk image. If you want “hibernation” - slower sleeps, slower wakes, and better battery life, you should use this setting.</p>
+<p><u>hibernatemode = 0</u> 是桌面電腦的默認設置。系統不會將內存備份到硬盤上。系統必須從內存中的內容恢復；如果掉電，將丟失內容。這是一種舊的睡眠設置。</p>
+<p><u>hibernatemode = 3</u> 是便攜式電腦的默認設置。系統將存儲一份內存的副本到硬盤上，並將保持內存的供電。系統將會從內存恢復，除非掉電，迫使系統從休眠映像恢復。</p>
+<p><u>hibernatemode = 25</u> 只能通過<code>pmset</code>命令來設置。系統將存儲一份內存的副本到硬盤上，並將切斷內存的供電。系統將從硬盤映像恢復。如果你想以較慢的速度睡眠、較慢的速度恢復和更長的電池壽命，那麽你可以使用這個設置。</p>
 <p>注意休眠文件只能指向位於根目錄所在卷的上的文件。</p>
-<p>Please note that hibernatefile may only point to a file located on the root volume.</p>
 </blockquote>
-<p>打開「終端」，輸入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">$ pmset -g</div><div class="line">System-wide power settings:</div><div class="line">Currently <span class="keyword">in</span> use:</div><div class="line"> standbydelay         10800</div><div class="line"> standby              1</div><div class="line"> womp                 1</div><div class="line"> halfdim              1</div><div class="line"> hibernatefile        /var/vm/sleepimage</div><div class="line"> powernap             1</div><div class="line"> gpuswitch            2</div><div class="line"> networkoversleep     0</div><div class="line"> disksleep            10</div><div class="line"> sleep                0</div><div class="line"> autopoweroffdelay    28800</div><div class="line"> hibernatemode        25</div><div class="line"> autopoweroff         1</div><div class="line"> ttyskeepawake        1</div><div class="line"> displaysleep         10</div><div class="line"> acwake               0</div><div class="line"> lidwake              1</div><div class="line"> </div><div class="line">System-wide power settings:</div><div class="line">Currently <span class="keyword">in</span> use:</div><div class="line"> standbydelay         10800</div><div class="line"> standby              1</div><div class="line"> halfdim              1</div><div class="line"> hibernatefile        /var/vm/sleepimage</div><div class="line"> powernap             0</div><div class="line"> gpuswitch            2</div><div class="line"> disksleep            10</div><div class="line"> sleep                5</div><div class="line"> autopoweroffdelay    28800</div><div class="line"> hibernatemode        25</div><div class="line"> autopoweroff         1</div><div class="line"> ttyskeepawake        1</div><div class="line"> displaysleep         5</div><div class="line"> acwake               0</div><div class="line"> lidwake              1</div></pre></td></tr></table></figure>
+<p>官方的說明已經很清楚了，我再簡化一下，系統休眠的時候：</p>
+<ol>
+<li>值為 0：不向硬盤寫入文件，內存一直通電，從內存喚醒系統</li>
+<li>值為 3：這個設置還要取決與 standby 的設置。如果內存通電，則從內存喚醒系統；如果內存不通電，則從硬盤文件喚醒系統</li>
+<li>值為 25：內存斷電，從硬盤鏡像喚醒系統</li>
+</ol>
+<p>顯然，如果為了<u>hibernatemode = 3</u>這種設備對於MacBook 來說是最好的設置狀態，也是默認的設置狀態，我們一般不需要進行修改。但是有些用戶偏向於更省電，那麽設置成3最好；有些用戶偏向於延長SSD壽命，那麽設置成1最好。</p>
+<p>具體的設置步驟如下：</p>
+<p>1.打開「終端」，輸入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">$ pmset -g</div><div class="line">System-wide power settings:</div><div class="line">Currently <span class="keyword">in</span> use:</div><div class="line"> standbydelay         10800</div><div class="line"> standby              1</div><div class="line"> womp                 1</div><div class="line"> halfdim              1</div><div class="line"> hibernatefile        /var/vm/sleepimage</div><div class="line"> powernap             1</div><div class="line"> gpuswitch            2</div><div class="line"> networkoversleep     0</div><div class="line"> disksleep            10</div><div class="line"> sleep                0</div><div class="line"> autopoweroffdelay    28800</div><div class="line"> hibernatemode        3</div><div class="line"> autopoweroff         1</div><div class="line"> ttyskeepawake        1</div><div class="line"> displaysleep         10</div><div class="line"> acwake               0</div><div class="line"> lidwake              1</div></pre></td></tr></table></figure>
+<p>會顯示當前狀態的設置（注意 MacBook 存在<strong>插電</strong>和<strong>電池供電</strong>兩種不同的電源狀態，對於伺服器來說還有<strong>UPS供電</strong>的狀態）</p>
+<ol>
+<li>輸入</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo pmset -c hibernatemode 25</div></pre></td></tr></table></figure>
+<p>設置 hibernatemode 25 的狀態</p>
 
       
     </div>
@@ -549,7 +562,7 @@ hibernatemode 支持的值有 0、3和25。macOS 是否寫入休眠映像文件�
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分類</span>
               </a>
             </div>
@@ -558,7 +571,7 @@ hibernatemode 支持的值有 0、3和25。macOS 是否寫入休眠映像文件�
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">標籤</span>
               </a>
             </div>
