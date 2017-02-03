@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-01-31T05:32:26.000Z</updated>
+  <updated>2017-02-03T07:01:22.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -16,11 +16,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>茫茫網誌系統中遇見Hexo</title>
+    <title>macOS Sierra 睡眠方式設置</title>
+    <link href="http://xiaocrab.net/posts/f8a16df0/"/>
+    <id>http://xiaocrab.net/posts/f8a16df0/</id>
+    <published>2017-02-02T16:00:00.000Z</published>
+    <updated>2017-02-03T07:01:22.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;macOS 通過 hibernatemode 來設置系統的休眠方式&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;macOS 安全休眠說明&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;hibernatemode&lt;/u&gt; 支持的值有 0、3和25。macOS 是否寫入休眠映像文件同時也取決于 &lt;u&gt;sta
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="macOS" scheme="http://xiaocrab.net/tags/macOS/"/>
+    
+      <category term="Sleep" scheme="http://xiaocrab.net/tags/Sleep/"/>
+    
+      <category term="Guide" scheme="http://xiaocrab.net/tags/Guide/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>茫茫網誌系統中遇見 Hexo</title>
     <link href="http://xiaocrab.net/posts/62e856b5/"/>
     <id>http://xiaocrab.net/posts/62e856b5/</id>
     <published>2017-01-27T16:00:00.000Z</published>
-    <updated>2017-01-31T05:32:26.000Z</updated>
+    <updated>2017-02-03T04:03:20.000Z</updated>
     
     <summary type="html">
     
@@ -42,11 +69,11 @@
   </entry>
   
   <entry>
-    <title>公共DNS伺服器推薦</title>
+    <title>公共 DNS 伺服器推薦</title>
     <link href="http://xiaocrab.net/posts/77bdf612/"/>
     <id>http://xiaocrab.net/posts/77bdf612/</id>
     <published>2016-08-01T07:00:00.000Z</published>
-    <updated>2017-01-30T11:29:16.000Z</updated>
+    <updated>2017-02-03T04:03:32.000Z</updated>
     
     <summary type="html">
     
