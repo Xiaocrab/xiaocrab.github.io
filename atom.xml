@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-04T12:05:41.000Z</updated>
+  <updated>2017-02-04T12:33:20.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://xiaocrab.net/posts/f8a16df0/"/>
     <id>http://xiaocrab.net/posts/f8a16df0/</id>
     <published>2017-02-02T16:00:00.000Z</published>
-    <updated>2017-02-04T12:05:41.000Z</updated>
+    <updated>2017-02-04T12:33:20.000Z</updated>
     
     <summary type="html">
     
@@ -47,7 +47,7 @@
     <link href="http://xiaocrab.net/posts/62e856b5/"/>
     <id>http://xiaocrab.net/posts/62e856b5/</id>
     <published>2017-01-27T16:00:00.000Z</published>
-    <updated>2017-02-04T11:39:34.000Z</updated>
+    <updated>2017-02-04T12:32:52.000Z</updated>
     
     <summary type="html">
     
@@ -73,7 +73,7 @@
     <link href="http://xiaocrab.net/posts/77bdf612/"/>
     <id>http://xiaocrab.net/posts/77bdf612/</id>
     <published>2016-08-01T07:00:00.000Z</published>
-    <updated>2017-02-04T11:21:24.000Z</updated>
+    <updated>2017-02-04T12:33:02.000Z</updated>
     
     <summary type="html">
     
@@ -113,6 +113,53 @@
       <category term="Byebye" scheme="http://xiaocrab.net/tags/Byebye/"/>
     
       <category term="QQ空間" scheme="http://xiaocrab.net/tags/QQ%E7%A9%BA%E9%96%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安利內幕揭祕，當安利找上門</title>
+    <link href="http://xiaocrab.net/posts/4efc47f8/"/>
+    <id>http://xiaocrab.net/posts/4efc47f8/</id>
+    <published>2016-02-21T16:00:00.000Z</published>
+    <updated>2017-02-04T13:01:36.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、家訪篇&quot;&gt;&lt;a href=&quot;#一、家訪篇&quot; class=&quot;headerlink&quot; title=&quot;一、家訪篇&quot;&gt;&lt;/a&gt;一、家訪篇&lt;/h2&gt;&lt;p&gt;春節前，老婆一個10多年沒聯繫的同學給她打電話，說要來家裏拜訪。老婆給我打電話讓我推掉晚上的事，一定要陪她的同學吃頓
+    
+    </summary>
+    
+      <category term="Life" scheme="http://xiaocrab.net/categories/Life/"/>
+    
+    
+      <category term="Amway" scheme="http://xiaocrab.net/tags/Amway/"/>
+    
+      <category term="傳銷" scheme="http://xiaocrab.net/tags/%E5%82%B3%E9%8A%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 7 使用2年的心得</title>
+    <link href="http://xiaocrab.net/posts/79640a53/"/>
+    <id>http://xiaocrab.net/posts/79640a53/</id>
+    <published>2012-02-03T04:00:00.000Z</published>
+    <updated>2017-02-04T12:53:40.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;自 2010 年 2 月 3 日使用 Windows 7 系统以來，已有兩年時間，在此寫一篇文章以紀錄使用心得。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Windows 7 RTM 釋出於 2009 年夏季，現在市場佔有率已經超越 XP。與 Windows XP 相比改進很大，更易於使用，是 Microsoft 最成功的一款桌面作業系統。Windows 7 的伺服器版本——Server 2008 R2與 Windows 7 同核心，僅支援 x64，也比較好用。Windows 7 有 6 個版本，但是常用的只有 4 個版本：家庭基礎版、家庭高階版、專業版、旗艦版。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="Think" scheme="http://xiaocrab.net/tags/Think/"/>
+    
+      <category term="Windows" scheme="http://xiaocrab.net/tags/Windows/"/>
     
   </entry>
   
