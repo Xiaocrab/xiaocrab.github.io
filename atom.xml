@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-04T10:26:01.000Z</updated>
+  <updated>2017-02-04T12:05:41.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://xiaocrab.net/posts/f8a16df0/"/>
     <id>http://xiaocrab.net/posts/f8a16df0/</id>
     <published>2017-02-02T16:00:00.000Z</published>
-    <updated>2017-02-04T10:26:01.000Z</updated>
+    <updated>2017-02-04T12:05:41.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;macOS 通過&lt;code&gt;pmset&lt;/code&gt;命令設置系統電源管理，其中&lt;code&gt;hibernatemode&lt;/code&gt;的值來調整系統睡眠方式。&lt;/p&gt;
-&lt;p&gt;以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，請保持系統默認設置，勿隨意修改睡眠方式！&lt;/p&gt;
+&lt;p&gt;以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！&lt;/p&gt;
     
     </summary>
     
@@ -47,13 +47,13 @@
     <link href="http://xiaocrab.net/posts/62e856b5/"/>
     <id>http://xiaocrab.net/posts/62e856b5/</id>
     <published>2017-01-27T16:00:00.000Z</published>
-    <updated>2017-02-04T10:37:01.000Z</updated>
+    <updated>2017-02-04T11:39:34.000Z</updated>
     
     <summary type="html">
     
       &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;br&gt;快速、簡單且強大的網誌框架&lt;br&gt;——Hexo.io&lt;/blockquote&gt;
 
-&lt;p&gt;前一段時間，我的 VPS 沒有及時繳費，結果被強制停機。續費之後，訪問我的 WordPress 網站，結果提示&lt;code&gt;db connection error&lt;/code&gt;錯誤。。。Oh，該死的數據庫出問題了！加之 WordPress 是出了名的「臃腫」，訪問的速度非常慢。我便心生了換一個網誌系統的念頭。&lt;/p&gt;
+&lt;p&gt;前一段時間，我的 VPS 沒有及時繳費，結果被強制停機。續費之後，訪問我的 WordPress 網站，結果提示&lt;code&gt;db connection error&lt;/code&gt;錯誤。。。Oh，該死的數據庫出問題了！加之 WordPress 是出了名的「臃腫」，訪問速度非常慢。我便心生了換一個網誌系統的念頭。&lt;/p&gt;
     
     </summary>
     
@@ -73,7 +73,7 @@
     <link href="http://xiaocrab.net/posts/77bdf612/"/>
     <id>http://xiaocrab.net/posts/77bdf612/</id>
     <published>2016-08-01T07:00:00.000Z</published>
-    <updated>2017-02-04T11:17:23.000Z</updated>
+    <updated>2017-02-04T11:21:24.000Z</updated>
     
     <summary type="html">
     
