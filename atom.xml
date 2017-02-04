@@ -163,11 +163,11 @@
   </entry>
   
   <entry>
-    <title>Windows 7 使用2年的心得</title>
+    <title>Windows 7 使用 2 年的心得</title>
     <link href="http://xiaocrab.net/posts/79640a53/"/>
     <id>http://xiaocrab.net/posts/79640a53/</id>
     <published>2012-02-03T04:00:00.000Z</published>
-    <updated>2017-02-04T13:01:56.000Z</updated>
+    <updated>2017-02-04T15:36:11.000Z</updated>
     
     <summary type="html">
     
@@ -192,12 +192,12 @@
     <link href="http://xiaocrab.net/posts/1a93e937/"/>
     <id>http://xiaocrab.net/posts/1a93e937/</id>
     <published>2009-02-16T16:00:00.000Z</published>
-    <updated>2017-02-04T15:34:15.000Z</updated>
+    <updated>2017-02-04T15:50:00.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;前幾天，準備調整一下分區。在 Windows XP 下分區不能正常進行，於是用 U 盤啟動 WinPE 進行分區。&lt;/p&gt;
-&lt;p&gt;在 WinPE 下，我啟動了&lt;em&gt;分區魔術師8.0&lt;/em&gt;，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後。在 D 盤的後面有一個 
+      &lt;p&gt;前幾天，準備調整一下硬碟的分區。在 WinXP 下，分區的操作不能正常進行，於是我用 U 盤啟動 WinPE 進行分區。&lt;/p&gt;
+&lt;p&gt;在 WinPE 下，我啟動了&lt;em&gt;分區魔術師8.0&lt;/em&gt;，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有
     
     </summary>
     
