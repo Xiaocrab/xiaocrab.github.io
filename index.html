@@ -285,194 +285,6 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/f8a16df0/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xiaocrab">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="xiaocrab.net">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/f8a16df0/" itemprop="url">
-                  macOS Sierra 睡眠方式設置
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-03T00:00:00+08:00">
-                2017-02-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/f8a16df0/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/f8a16df0/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/posts/f8a16df0/" class="leancloud_visitors" data-flag-title="macOS Sierra 睡眠方式設置">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">閱讀次數 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>macOS 通過<code>pmset</code>命令設置<code>hibernatemode</code>的值來調整系統睡眠方式。</p>
-<p>以下內容翻譯自<code>pmset</code>命令的幫助文件（可以運行<code>man pmset</code>查看）</p>
-<blockquote>
-<p><strong>macOS 安全休眠說明</strong></p>
-<p><u>hibernatemode</u> 可以設置的值有 0、3和25。macOS 是否寫入休眠映像文件到硬盤也同時取決于 <u>standby</u> 和 <u>autopoweroff</u> 的值。</p>
-<p>例如，對於支持休眠的台式電腦將在 <u>standby</u> 設置的時間之後寫入休眠映像文件。要完全禁止休眠映像，請確保 <u>hibernatemode</u>，<u>standby</u> 和 <u>autopoweroff</u> 的值都要設置為 0。</p>
-<p><u>hibernatemode = 0</u> 是桌面電腦的默認設置。系統不會將內存備份到硬盤上。系統必須從內存中的內容恢復；如果掉電，將丟失內容。這是一種舊的睡眠設置。</p>
-<p><u>hibernatemode = 3</u> 是便攜式電腦的默認設置。系統將存儲一份內存的副本到硬盤上，並將保持內存的供電。系統將會從內存恢復，除非掉電，迫使系統從休眠映像恢復。</p>
-<p><u>hibernatemode = 25</u> 只能通過<code>pmset</code>命令來設置。系統將存儲一份內存的副本到硬盤上，並將切斷內存的供電。系統將從硬盤映像恢復。如果你想以較慢的速度睡眠、較慢的速度恢復和更長的電池壽命，那麽你可以使用這個設置。</p>
-<p>注意休眠文件只能指向位於根目錄所在卷的上的文件。</p>
-</blockquote>
-<p>官方的說明已經很清楚了，我再簡化一下，系統休眠的時候：</p>
-<ol>
-<li>值為 0：不向硬盤寫入文件，內存一直通電，從內存喚醒系統</li>
-<li>值為 3：這個設置還要取決與 standby 的設置。如果內存通電，則從內存喚醒系統；如果內存不通電，則從硬盤文件喚醒系統</li>
-<li>值為 25：內存斷電，從硬盤鏡像喚醒系統</li>
-</ol>
-<p>顯然，如果為了<u>hibernatemode = 3</u>這種設備對於MacBook 來說是最好的設置狀態，也是默認的設置狀態，我們一般不需要進行修改。但是有些用戶偏向於更省電，那麽設置成3最好；有些用戶偏向於延長SSD壽命，那麽設置成1最好。</p>
-<p>具體的設置步驟如下：</p>
-<p>1.打開「終端」，輸入</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">$ pmset -g</div><div class="line">System-wide power settings:</div><div class="line">Currently <span class="keyword">in</span> use:</div><div class="line"> standbydelay         10800</div><div class="line"> standby              1</div><div class="line"> womp                 1</div><div class="line"> halfdim              1</div><div class="line"> hibernatefile        /var/vm/sleepimage</div><div class="line"> powernap             1</div><div class="line"> gpuswitch            2</div><div class="line"> networkoversleep     0</div><div class="line"> disksleep            10</div><div class="line"> sleep                0</div><div class="line"> autopoweroffdelay    28800</div><div class="line"> hibernatemode        3</div><div class="line"> autopoweroff         1</div><div class="line"> ttyskeepawake        1</div><div class="line"> displaysleep         10</div><div class="line"> acwake               0</div><div class="line"> lidwake              1</div></pre></td></tr></table></figure>
-<p>會顯示當前狀態的設置（注意 MacBook 存在<strong>插電</strong>和<strong>電池供電</strong>兩種不同的電源狀態，對於伺服器來說還有<strong>UPS供電</strong>的狀態）</p>
-<ol>
-<li>輸入</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo pmset -c hibernatemode 25</div></pre></td></tr></table></figure>
-<p>設置 hibernatemode 25 的狀態</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/62e856b5/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1087,7 +899,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>
@@ -1105,7 +917,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">標籤</span>
               </a>
             </div>
