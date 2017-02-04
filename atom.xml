@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-04T12:33:20.000Z</updated>
+  <updated>2017-02-04T12:32:52.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -14,33 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>macOS Sierra 睡眠方式設置</title>
-    <link href="http://xiaocrab.net/posts/f8a16df0/"/>
-    <id>http://xiaocrab.net/posts/f8a16df0/</id>
-    <published>2017-02-02T16:00:00.000Z</published>
-    <updated>2017-02-04T12:33:20.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;macOS 通過&lt;code&gt;pmset&lt;/code&gt;命令設置系統電源管理，其中&lt;code&gt;hibernatemode&lt;/code&gt;的值來調整系統睡眠方式。&lt;/p&gt;
-&lt;p&gt;以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
-    
-    
-      <category term="macOS" scheme="http://xiaocrab.net/tags/macOS/"/>
-    
-      <category term="Sierra" scheme="http://xiaocrab.net/tags/Sierra/"/>
-    
-      <category term="hibernate" scheme="http://xiaocrab.net/tags/hibernate/"/>
-    
-      <category term="sleep" scheme="http://xiaocrab.net/tags/sleep/"/>
-    
-  </entry>
   
   <entry>
     <title>茫茫網誌系統中遇見 Hexo</title>
@@ -65,6 +38,33 @@
       <category term="Hexo" scheme="http://xiaocrab.net/tags/Hexo/"/>
     
       <category term="Find" scheme="http://xiaocrab.net/tags/Find/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macOS Sierra 睡眠方式設置</title>
+    <link href="http://xiaocrab.net/posts/f8a16df0/"/>
+    <id>http://xiaocrab.net/posts/f8a16df0/</id>
+    <published>2016-12-11T16:00:00.000Z</published>
+    <updated>2017-02-04T13:43:53.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;macOS 通過&lt;code&gt;pmset&lt;/code&gt;命令設置系統電源管理，其中&lt;code&gt;hibernatemode&lt;/code&gt;的值來調整系統睡眠方式。&lt;/p&gt;
+&lt;p&gt;以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="macOS" scheme="http://xiaocrab.net/tags/macOS/"/>
+    
+      <category term="Sierra" scheme="http://xiaocrab.net/tags/Sierra/"/>
+    
+      <category term="hibernate" scheme="http://xiaocrab.net/tags/hibernate/"/>
+    
+      <category term="sleep" scheme="http://xiaocrab.net/tags/sleep/"/>
     
   </entry>
   
@@ -144,7 +144,7 @@
     <link href="http://xiaocrab.net/posts/58ce493e/"/>
     <id>http://xiaocrab.net/posts/58ce493e/</id>
     <published>2015-01-07T16:00:00.000Z</published>
-    <updated>2017-02-04T13:39:40.000Z</updated>
+    <updated>2017-02-04T13:44:48.000Z</updated>
     
     <summary type="html">
     
@@ -152,7 +152,6 @@
 &lt;p&gt;這一天，迎來了在大學的最後一次考試。&lt;/p&gt;
 &lt;p&gt;這次考試，監考還是比較嚴格的，監考老師在考場上面，收走了好多小紙條兒。&lt;/p&gt;
 &lt;p&gt;但是，都沒有做記錄，應該所有的人，都能順利地通過考試。&lt;/p&gt;
-&lt;p
     
     </summary>
     
