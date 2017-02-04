@@ -73,11 +73,11 @@
     <link href="http://xiaocrab.net/posts/77bdf612/"/>
     <id>http://xiaocrab.net/posts/77bdf612/</id>
     <published>2016-08-01T07:00:00.000Z</published>
-    <updated>2017-02-04T10:35:19.000Z</updated>
+    <updated>2017-02-04T11:03:55.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;DNS 是 Internet 上專門用來域名解析的服務。在接入 Internet 的時候，運營商會提供一對 DNS 伺服器地址，這對地址往往會被運營商所利用，它們篡改解析紀錄，投放廣告或者屏蔽某些網站，即 DNS劫持。&lt;/p&gt;
+      &lt;p&gt;DNS 是 Internet 上專門用來域名解析的服務，在接入 Internet 的時候，運營商會提供一對 DNS 伺服器地址。這對地址往往會被運營商所利用，它們篡改解析紀錄，投放廣告或者屏蔽某些網站，即 DNS 劫持。&lt;/p&gt;
 &lt;p&gt;拒絕 DNS 劫持，請設置安全可靠的 DNS 伺服器地址！&lt;br&gt;
     
     </summary>
