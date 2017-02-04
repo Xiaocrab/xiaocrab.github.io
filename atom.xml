@@ -46,7 +46,7 @@
     <link href="http://xiaocrab.net/posts/f8a16df0/"/>
     <id>http://xiaocrab.net/posts/f8a16df0/</id>
     <published>2016-12-11T16:00:00.000Z</published>
-    <updated>2017-02-04T13:43:53.000Z</updated>
+    <updated>2017-02-04T15:06:20.000Z</updated>
     
     <summary type="html">
     
@@ -96,7 +96,7 @@
     <link href="http://xiaocrab.net/posts/84670bcd/"/>
     <id>http://xiaocrab.net/posts/84670bcd/</id>
     <published>2016-07-21T16:00:00.000Z</published>
-    <updated>2017-02-04T10:54:10.000Z</updated>
+    <updated>2017-02-04T15:05:04.000Z</updated>
     
     <summary type="html">
     
@@ -144,7 +144,7 @@
     <link href="http://xiaocrab.net/posts/58ce493e/"/>
     <id>http://xiaocrab.net/posts/58ce493e/</id>
     <published>2015-01-07T16:00:00.000Z</published>
-    <updated>2017-02-04T13:56:14.000Z</updated>
+    <updated>2017-02-04T13:58:10.000Z</updated>
     
     <summary type="html">
     
@@ -181,9 +181,32 @@
       <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
     
     
+      <category term="Windows" scheme="http://xiaocrab.net/tags/Windows/"/>
+    
       <category term="Think" scheme="http://xiaocrab.net/tags/Think/"/>
     
-      <category term="Windows" scheme="http://xiaocrab.net/tags/Windows/"/>
+  </entry>
+  
+  <entry>
+    <title>文件數據歷險記</title>
+    <link href="http://xiaocrab.net/posts/1a93e937/"/>
+    <id>http://xiaocrab.net/posts/1a93e937/</id>
+    <published>2009-02-16T16:00:00.000Z</published>
+    <updated>2017-02-04T15:34:15.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前幾天，準備調整一下分區。在 Windows XP 下分區不能正常進行，於是用 U 盤啟動 WinPE 進行分區。&lt;/p&gt;
+&lt;p&gt;在 WinPE 下，我啟動了&lt;em&gt;分區魔術師8.0&lt;/em&gt;，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後。在 D 盤的後面有一個 
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="Recovery" scheme="http://xiaocrab.net/tags/Recovery/"/>
+    
+      <category term="Files" scheme="http://xiaocrab.net/tags/Files/"/>
     
   </entry>
   
