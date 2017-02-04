@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-03T04:03:20.000Z</updated>
+  <updated>2017-02-04T10:21:02.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -14,6 +14,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macOS Sierra 睡眠方式設置</title>
+    <link href="http://xiaocrab.net/posts/f8a16df0/"/>
+    <id>http://xiaocrab.net/posts/f8a16df0/</id>
+    <published>2017-02-02T16:00:00.000Z</published>
+    <updated>2017-02-04T10:21:02.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;macOS 通過&lt;code&gt;pmset&lt;/code&gt;命令設置系統電源管理，其中&lt;code&gt;hibernatemode&lt;/code&gt;的值來調整系統睡眠方式。&lt;/p&gt;
+&lt;p&gt;以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，請保持系統默認設置，勿隨意修改睡眠方式！&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>茫茫網誌系統中遇見 Hexo</title>
