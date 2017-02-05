@@ -46,7 +46,7 @@
     <link href="http://xiaocrab.net/posts/f8a16df0/"/>
     <id>http://xiaocrab.net/posts/f8a16df0/</id>
     <published>2016-12-11T16:00:00.000Z</published>
-    <updated>2017-02-04T15:06:20.000Z</updated>
+    <updated>2017-02-05T00:53:16.000Z</updated>
     
     <summary type="html">
     
@@ -62,9 +62,11 @@
     
       <category term="Sierra" scheme="http://xiaocrab.net/tags/Sierra/"/>
     
-      <category term="hibernate" scheme="http://xiaocrab.net/tags/hibernate/"/>
+      <category term="Hibernate" scheme="http://xiaocrab.net/tags/Hibernate/"/>
     
-      <category term="sleep" scheme="http://xiaocrab.net/tags/sleep/"/>
+      <category term="Sleep" scheme="http://xiaocrab.net/tags/Sleep/"/>
+    
+      <category term="睡眠" scheme="http://xiaocrab.net/tags/%E7%9D%A1%E7%9C%A0/"/>
     
   </entry>
   
@@ -117,11 +119,11 @@
   </entry>
   
   <entry>
-    <title>安利內幕揭祕，當安利找上門</title>
+    <title>轉載：安利內幕揭祕，當安利找上門</title>
     <link href="http://xiaocrab.net/posts/4efc47f8/"/>
     <id>http://xiaocrab.net/posts/4efc47f8/</id>
     <published>2016-02-21T16:00:00.000Z</published>
-    <updated>2017-02-04T13:07:53.000Z</updated>
+    <updated>2017-02-05T00:57:28.000Z</updated>
     
     <summary type="html">
     
@@ -192,12 +194,12 @@
     <link href="http://xiaocrab.net/posts/1a93e937/"/>
     <id>http://xiaocrab.net/posts/1a93e937/</id>
     <published>2009-02-16T16:00:00.000Z</published>
-    <updated>2017-02-04T15:50:00.000Z</updated>
+    <updated>2017-02-05T00:55:01.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;前幾天，準備調整一下硬碟的分區。在 WinXP 下，分區的操作不能正常進行，於是我用 U 盤啟動 WinPE 進行分區。&lt;/p&gt;
-&lt;p&gt;在 WinPE 下，我啟動了&lt;em&gt;分區魔術師8.0&lt;/em&gt;，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有
+&lt;p&gt;在 WinPE 下，我啟動了&lt;em&gt;分區魔術師8.0&lt;/em&gt;，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有一個 7MB 左右的&lt;em&gt;未分配空間&lt;/em&gt;。我想把那 7MB 利用起來，分給 C 盤（把原來邏輯分區的空間，分給主分區）。原來的分區情況是這樣的：C 盤是主分區，D、Ｅ、Ｆ、Ｇ都是邏輯分區。那軟體雖然是漢化的，但是Ｅ文挺多的，有些Ｅ文我看不懂，所以選的 Next。結果我的分區只剩 C 了，其他的 Ｄ、Ｅ、Ｆ、Ｇ都變成了未分區。那些分區裡可儲存著這兩年來的心血呀。一定要想辦法找回來！&lt;br&gt;
     
     </summary>
     
@@ -207,6 +209,8 @@
       <category term="Recovery" scheme="http://xiaocrab.net/tags/Recovery/"/>
     
       <category term="Files" scheme="http://xiaocrab.net/tags/Files/"/>
+    
+      <category term="WinPE" scheme="http://xiaocrab.net/tags/WinPE/"/>
     
   </entry>
   
