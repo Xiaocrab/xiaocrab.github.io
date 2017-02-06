@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-06T11:33:30.000Z</updated>
+  <updated>2017-02-06T11:42:32.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -20,13 +20,15 @@
     <link href="http://xiaocrab.net/posts/88eec839/"/>
     <id>http://xiaocrab.net/posts/88eec839/</id>
     <published>2017-02-06T04:00:00.000Z</published>
-    <updated>2017-02-06T11:33:30.000Z</updated>
+    <updated>2017-02-06T11:42:32.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;Synology 作為 NAS 屆的蘋果公司，以其 DSM 系統超級贊的用戶體驗收攏了大批粉絲。甚至有不少人為了使用強大的 DSM 系統，專門在非群輝機器上安裝 DSM 系統，即「黑裙輝」。好馬配好鞍，豐富的套件資源也是其系統的一大特點。&lt;/p&gt;
 &lt;blockquote&gt;
-
+&lt;p&gt;好用的系統 + 好用的套件 = 好用的 DSM 系統&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;SynoCommunity 是由開發者業餘時間發起的一個 DSM 系統免費套件的發佈平台（第三方源）。&lt;br&gt;
     
     </summary>
     
@@ -42,6 +44,8 @@
       <category term="NAS" scheme="http://xiaocrab.net/tags/NAS/"/>
     
       <category term="套件" scheme="http://xiaocrab.net/tags/%E5%A5%97%E4%BB%B6/"/>
+    
+      <category term="第三方源" scheme="http://xiaocrab.net/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%BA%90/"/>
     
       <category term="SynoCommunity" scheme="http://xiaocrab.net/tags/SynoCommunity/"/>
     
