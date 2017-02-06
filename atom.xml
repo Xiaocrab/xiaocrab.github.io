@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-06T12:13:48.000Z</updated>
+  <updated>2017-02-06T12:41:50.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -16,15 +16,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>群輝 Synology DSM 第三方源 SynoCommunity 添加和使用教程</title>
+    <title>群暉 Synology DSM 第三方源 SynoCommunity 添加和使用教程</title>
     <link href="http://xiaocrab.net/posts/88eec839/"/>
     <id>http://xiaocrab.net/posts/88eec839/</id>
     <published>2017-02-06T04:00:00.000Z</published>
-    <updated>2017-02-06T12:13:48.000Z</updated>
+    <updated>2017-02-06T12:41:50.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Synology 作為 NAS 屆的蘋果公司，以其 DSM 系統超級贊的用戶體驗收攏了大批粉絲。甚至有不少人為了使用強大的 DSM 系統，專門在非群輝機器上安裝 DSM 系統，即「黑裙輝」。好馬配好鞍，豐富的套件資源也是其系統的一大特點。&lt;/p&gt;
+      &lt;p&gt;Synology 作為 NAS 屆的蘋果公司，以其 DSM 系統超級贊的用戶體驗收攏了大批粉絲。甚至有不少人為了使用強大的 DSM 系統，專門在非群暉機器上安裝 DSM 系統，即「黑裙輝」。好馬配好鞍，豐富的套件資源也是其系統的一大特點。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;好用的 DSM 系統 + 好用的 DSM 套件 = 好用的 DSM 生態&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -35,7 +35,7 @@
       <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
     
     
-      <category term="群輝" scheme="http://xiaocrab.net/tags/%E7%BE%A4%E8%BC%9D/"/>
+      <category term="群暉" scheme="http://xiaocrab.net/tags/%E7%BE%A4%E6%9A%89/"/>
     
       <category term="Synology" scheme="http://xiaocrab.net/tags/Synology/"/>
     
@@ -248,9 +248,9 @@
       <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
     
     
-      <category term="Think" scheme="http://xiaocrab.net/tags/Think/"/>
-    
       <category term="Windows" scheme="http://xiaocrab.net/tags/Windows/"/>
+    
+      <category term="Think" scheme="http://xiaocrab.net/tags/Think/"/>
     
   </entry>
   
