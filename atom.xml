@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-02-04T12:32:52.000Z</updated>
+  <updated>2017-02-06T11:32:56.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群輝 Synology DSM 第三方源 SynoCommunity 添加和使用教程</title>
+    <link href="http://xiaocrab.net/posts/88eec839/"/>
+    <id>http://xiaocrab.net/posts/88eec839/</id>
+    <published>2017-02-06T04:00:00.000Z</published>
+    <updated>2017-02-06T11:32:56.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Synology 作為 NAS 屆的蘋果公司，以其 DSM 系統超級贊的用戶體驗收攏了大批粉絲。甚至有不少人為了使用強大的 DSM 系統，專門在非群輝機器上安裝 DSM 系統，即「黑裙輝」。好馬配好鞍，豐富的套件資源也是其系統的一大特點。&lt;/p&gt;
+&lt;blockquote&gt;
+
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="群輝" scheme="http://xiaocrab.net/tags/%E7%BE%A4%E8%BC%9D/"/>
+    
+      <category term="Synology" scheme="http://xiaocrab.net/tags/Synology/"/>
+    
+      <category term="DSM" scheme="http://xiaocrab.net/tags/DSM/"/>
+    
+      <category term="NAS" scheme="http://xiaocrab.net/tags/NAS/"/>
+    
+      <category term="套件" scheme="http://xiaocrab.net/tags/%E5%A5%97%E4%BB%B6/"/>
+    
+      <category term="SynoCommunity" scheme="http://xiaocrab.net/tags/SynoCommunity/"/>
+    
+  </entry>
   
   <entry>
     <title>茫茫網誌系統中遇見 Hexo</title>
