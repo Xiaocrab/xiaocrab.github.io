@@ -213,6 +213,35 @@
   </entry>
   
   <entry>
+    <title>告別渣顯示效果，Windows 字型渲染指引</title>
+    <link href="http://xiaocrab.net/posts/367e62cd/"/>
+    <id>http://xiaocrab.net/posts/367e62cd/</id>
+    <published>2015-02-18T16:00:00.000Z</published>
+    <updated>2017-02-19T11:56:12.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;眾所周知，Windows 作業系統的字型渲染效果實在是渣！透！了！即便是最新的 Windows 10 作業系統也沒有太大的改善。&lt;/p&gt;
+&lt;p&gt;從 XP 開始，微軟搞了一個叫 &lt;code&gt;ClearType&lt;/code&gt; 的技術（XP 系統使用者可以百度下載這個插件，安裝使用十分簡單）可以改善字型（微軟雅黑等）的渲染效果，但這僅僅是「有所改善」，因為不開 ClearType 簡直沒！法！看！&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="Windows" scheme="http://xiaocrab.net/tags/Windows/"/>
+    
+      <category term="字型" scheme="http://xiaocrab.net/tags/%E5%AD%97%E5%9E%8B/"/>
+    
+      <category term="渲染" scheme="http://xiaocrab.net/tags/%E6%B8%B2%E6%9F%93/"/>
+    
+      <category term="GDI+" scheme="http://xiaocrab.net/tags/GDI/"/>
+    
+  </entry>
+  
+  <entry>
     <title>紀大學最後一次考試</title>
     <link href="http://xiaocrab.net/posts/58ce493e/"/>
     <id>http://xiaocrab.net/posts/58ce493e/</id>
