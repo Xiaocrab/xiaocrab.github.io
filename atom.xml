@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-07-30T13:56:44.000Z</updated>
+  <updated>2017-07-30T14:33:17.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -16,27 +16,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>免費激活 PyCharm 專業版及其他 JetBrains 軟件</title>
-    <link href="http://xiaocrab.net/posts/481c1df8/"/>
-    <id>http://xiaocrab.net/posts/481c1df8/</id>
+    <title>免費激活 PyCharm 專業版及其他 JetBrains 公司軟件</title>
+    <link href="http://xiaocrab.net/posts/667a7f43/"/>
+    <id>http://xiaocrab.net/posts/667a7f43/</id>
     <published>2017-07-29T16:00:00.000Z</published>
-    <updated>2017-07-30T13:56:44.000Z</updated>
+    <updated>2017-07-30T14:33:17.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;作為迄今為止最強 Python 語言 IDE——JetBrains PyCharm 目前有三大版本：&lt;strong&gt;社區版&lt;/strong&gt;、&lt;strong&gt;教育版&lt;/strong&gt;、&lt;strong&gt;專業版&lt;/strong&gt;。前兩者都是免費提供，&lt;strong&gt;專業版&lt;/strong&gt;相比前者提供更豐富的功能，適用於實際開發工作，但是價格偏高，對於普通開發者來說，是一筆很大的開銷。好在有提供免費激活服務器的網站，能讓我們普通開發者免費激活 PyCharm。&lt;/p&gt;
-&lt;p&gt;但是，如果資金允許，還是建議&lt;a href=&quot;https://www.jetbrains.com/idea/buy/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;購買正版&lt;/a&gt;軟件。&lt;br&gt;
+      &lt;p&gt;作為迄今為止最強 Python 語言 IDE——JetBrains PyCharm 目前有三大版本：&lt;strong&gt;社區版&lt;/strong&gt;、&lt;strong&gt;教育版&lt;/strong&gt;、&lt;strong&gt;專業版&lt;/strong&gt;。前兩者都是免費提供。&lt;strong&gt;專業版&lt;/strong&gt;相比前者提供更豐富的功能，適用於實際開發工作，但是價格偏高，對於普通開發者來說，是一筆很大的開銷。好在有提供免費激活服務器的網站，能讓我們普通開發者免費激活 PyCharm。&lt;/p&gt;
+&lt;p&gt;但是，如果資金允許，還是建議&lt;a href=&quot;https://www.jetbrains.com/pycharm/buy/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;購買正版&lt;/a&gt;軟件。&lt;br&gt;
     
     </summary>
     
-      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+      <category term="Dev" scheme="http://xiaocrab.net/categories/Dev/"/>
     
     
       <category term="PyCharm" scheme="http://xiaocrab.net/tags/PyCharm/"/>
     
       <category term="Python" scheme="http://xiaocrab.net/tags/Python/"/>
     
-      <category term="Active" scheme="http://xiaocrab.net/tags/Active/"/>
+      <category term="Activate" scheme="http://xiaocrab.net/tags/Activate/"/>
     
   </entry>
   
