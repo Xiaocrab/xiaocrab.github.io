@@ -4,8 +4,32 @@
 
     
   <url>
+    <loc>http://xiaocrab.net/posts/481c1df8/</loc>
+    <lastmod>2017-07-30T13:56:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>免費激活 PyCharm 專業版及其他 JetBrains 軟件</title>
+        <pubTime>2017-07-29T16:00:00.000Z</pubTime>
+        
+        <tag>PyCharm</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Active</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://xiaocrab.net/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xiaocrab.net/posts/367e62cd/</loc>
-    <lastmod>2017-02-19T11:56:12.000Z</lastmod>
+    <lastmod>2017-02-19T12:00:33.000Z</lastmod>
     <data>
         <display>
         <title>告別渣顯示效果，Windows 字型渲染指引</title>
@@ -38,9 +62,9 @@
         <title>群暉 Synology DSM 第三方源 SynoCommunity 添加和使用教程</title>
         <pubTime>2017-02-06T04:00:00.000Z</pubTime>
         
-        <tag>群暉</tag>
-         
         <tag>Synology</tag>
+         
+        <tag>群暉</tag>
          
         <tag>DSM</tag>
          
