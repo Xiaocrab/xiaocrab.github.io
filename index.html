@@ -411,7 +411,6 @@
 <p>比如我們要訪問 <a href="https://google.com" rel="external nofollow noopener noreferrer" target="_blank">Google 主頁</a>，大致過程如下：首先瀏覽器向 DNS 服務器發出請求，DNS 服務器會返回一個對應的 IP 地址，接著瀏覽器向這個 IP 地址發出 HTTP 連接請求，建立連接傳輸網頁數據，瀏覽器解析網頁數據。</p>
 <p>這是一個傳統的解析過程，然而由於最初設計上的缺陷，在 DNS 解析和 HTTP 連接全過程中，都是採用明文傳輸的數據（類似於「裸奔」），極易受到「中間人」的攻擊。</p>
 <p>那麽為了確保客戶端與服務器之間安全的傳輸，後來制定了 DNSSEC 、HTTPS 等技術。HTTPS 加密了 HTTP 傳輸的數據，確保了傳輸安全，而 DNSSEC 只是對 DNS 數據加了電子簽名，在傳輸過程中並沒有對數據進行加密，只能驗證傳輸過程中數據是否經過了篡改。</p>
-<p>基於此，計算機網絡界大佬——Cisco 公司，研發了一個加密 DNS 傳輸的協議——DNSCrypt（<a href="https://www.opendns.com/about/innovations/dnscrypt/" rel="external nofollow noopener noreferrer" target="_blank">介紹頁面</a>）。使用 DNSCrypt 協議可以加密傳輸客戶端到支持 DNSCrypt 協議的 DNS 服務器之間的連接，確保不會受到 DNS 攻擊。</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/21a7a5cc/#more" rel="contents">
