@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="macOS,Sierra,Hibernate,Sleep,睡眠,">
 
 
 
@@ -86,15 +86,21 @@
 
 
 
-<meta name="description" content="探尋簡單生活">
-<meta property="og:type" content="website">
-<meta property="og:title" content="xiaocrab.net">
-<meta property="og:url" content="http://xiaocrab.net/page/2/index.html">
+<meta name="description" content="macOS 通過pmset命令設置系統電源管理，其中hibernatemode的值來調整系統睡眠方式。
+以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="macOS Sierra 睡眠方式設置">
+<meta property="og:url" content="http://xiaocrab.net/posts/f8a16df0/index.html">
 <meta property="og:site_name" content="xiaocrab.net">
-<meta property="og:description" content="探尋簡單生活">
+<meta property="og:description" content="macOS 通過pmset命令設置系統電源管理，其中hibernatemode的值來調整系統睡眠方式。
+以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！">
+<meta property="og:image" content="https://okr5ln1ms.qnssl.com/2017-02-04-120519.jpg">
+<meta property="og:updated_time" content="2017-02-05T00:53:16.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="xiaocrab.net">
-<meta name="twitter:description" content="探尋簡單生活">
+<meta name="twitter:title" content="macOS Sierra 睡眠方式設置">
+<meta name="twitter:description" content="macOS 通過pmset命令設置系統電源管理，其中hibernatemode的值來調整系統睡眠方式。
+以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！">
+<meta name="twitter:image" content="https://okr5ln1ms.qnssl.com/2017-02-04-120519.jpg">
 
 
 
@@ -122,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://xiaocrab.net/page/2/">
+  <link rel="canonical" href="http://xiaocrab.net/posts/f8a16df0/">
 
 
 
 
 
-  <title> xiaocrab.net </title>
+  <title> macOS Sierra 睡眠方式設置 | xiaocrab.net </title>
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hant">
@@ -168,9 +174,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -274,9 +278,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -285,7 +289,7 @@
   
 
   <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/77bdf612/">
+  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/f8a16df0/">
 
   <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Xiaocrab">
@@ -309,10 +313,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/posts/77bdf612/" itemprop="url">
-                  公共 DNS 伺服器推薦
-                </a>
+                macOS Sierra 睡眠方式設置
               
             
           </h1>
@@ -327,8 +328,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-08-01T15:00:00+08:00">
-                2016-08-01
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-12T00:00:00+08:00">
+                2016-12-12
               </time>
             
 
@@ -368,8 +369,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/posts/77bdf612/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/77bdf612/" itemprop="commentCount"></span>
+                <a href="/posts/f8a16df0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/f8a16df0/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -379,7 +380,7 @@
 
           
           
-             <span id="/posts/77bdf612/" class="leancloud_visitors" data-flag-title="公共 DNS 伺服器推薦">
+             <span id="/posts/f8a16df0/" class="leancloud_visitors" data-flag-title="macOS Sierra 睡眠方式設置">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -406,719 +407,111 @@
       
 
       
-        
-          <p>DNS 是 Internet 上專門用來域名解析的服務，在接入 Internet 的時候，運營商會提供一對 DNS 伺服器地址。這對地址往往會被運營商所利用，它們篡改解析紀錄，投放廣告或者屏蔽某些網站，即 DNS 劫持。</p>
-<p>拒絕 DNS 劫持，請設置安全可靠的 DNS 伺服器地址！<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/77bdf612/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/84670bcd/">
-
-  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xiaocrab">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="xiaocrab.net">
-    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/84670bcd/" itemprop="url">
-                  再見了，QQ 空間
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-07-22T00:00:00+08:00">
-                2016-07-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/84670bcd/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/84670bcd/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/posts/84670bcd/" class="leancloud_visitors" data-flag-title="再見了，QQ 空間">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">閱讀次數 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>自 2007 年第一篇網誌發佈到現在已經 9 年多了，當時只是爲了「點亮圖標」而開通。</p>
-<p>漸漸地，在那裏累積了網誌 240 餘篇，圖片 1000 餘張，說說 800 餘條……但有價值的東西其實很少。甚至還有幾段時間，每天把大部分時間都花在它身上……浪費了不少時間。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/84670bcd/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/4efc47f8/">
-
-  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xiaocrab">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="xiaocrab.net">
-    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/4efc47f8/" itemprop="url">
-                  轉載：安利內幕揭祕，當安利找上門
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-02-22T00:00:00+08:00">
-                2016-02-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/Life/" itemprop="url" rel="index">
-                    <span itemprop="name">Life</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/4efc47f8/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/4efc47f8/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/posts/4efc47f8/" class="leancloud_visitors" data-flag-title="轉載：安利內幕揭祕，當安利找上門">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">閱讀次數 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="一、家訪篇"><a href="#一、家訪篇" class="headerlink" title="一、家訪篇"></a>一、家訪篇</h2><p>春節前，老婆一個10多年沒聯繫的同學給她打電話，說要來家裏拜訪。老婆給我打電話讓我推掉晚上的事，一定要陪她的同學吃頓飯。我答應了。</p>
-<p>晚上我們設的家宴款待她的同學。談及這10幾年的經歷，她告訴我們，她前年下崗了，現在在做自己的事業。然後大加讚揚我家的房子、汽車、孩子聰明、家庭和睦、事業有成。誇我老婆有眼光找到一個極有家庭責任感又有事業的好老公。雖說她的語氣太誇張，但我心裏還是蠻舒服的——千穿萬穿，馬屁不穿，此乃真理。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/4efc47f8/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/f1d25a1c/">
-
-  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xiaocrab">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="xiaocrab.net">
-    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/f1d25a1c/" itemprop="url">
-                  GPG 公鈅
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-08-01T00:00:00+08:00">
-                2015-08-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/Safe/" itemprop="url" rel="index">
-                    <span itemprop="name">Safe</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/f1d25a1c/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/f1d25a1c/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/posts/f1d25a1c/" class="leancloud_visitors" data-flag-title="GPG 公鈅">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">閱讀次數 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>GPG (GNU Privacy Guard, <a href="https://gnupg.org/" rel="external nofollow noopener noreferrer" target="_blank">GnuPG</a>) 是一種加密軟件，它是 PGP 加密軟件的滿足 GPL 的替代物。</p>
-</blockquote>
-<p>GPG 採用非對稱加密算法，目前被廣泛應用于加解密和簽名驗證等領域。採用公鈅加密，私鑰解密。</p>
+        <p>macOS 通過<code>pmset</code>命令設置系統電源管理，其中<code>hibernatemode</code>的值來調整系統睡眠方式。</p>
+<p>以下操作和介紹均以 macOS Sierra 10.12 系統為範例，其他版本的 macOS 系統可能稍有不同。如果 Mac 電腦使用沒有問題，建議保持系統默認設置，勿隨意修改睡眠方式！</p>
+<a id="more"></a>
+<h2 id="設置介紹"><a href="#設置介紹" class="headerlink" title="設置介紹"></a>設置介紹</h2><p>在系統偏好設置的「能源節約器」裏面提供了一部分電源管理設置，但是更加詳細的設置只能通過<code>pmset</code>命令來完成。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/2017-02-04-120519.jpg" alt="能源節約器"></p>
+<p>以下內容翻譯自<code>pmset</code>命令的幫助檔案（可以運行<code>man pmset</code>查看）</p>
 <blockquote>
-<p><strong>GPG Public Key 公鈅</strong><br>KeyID: 0x<strong>6C5782B2</strong><br>Date: 2015-05-27<br><a href="http://hkps.pool.sks-keyservers.net/pks/lookup?search=0x6C5782B2" rel="external nofollow noopener noreferrer" target="_blank">下載公鈅</a></p>
+<p><strong>macOS 安全睡眠說明</strong></p>
+<p><code>hibernatemode</code>可以設置的值有 0、3和25。 macOS 系統是否寫入睡眠檔案到硬碟也同時取決於<code>standby</code>和<code>autopoweroff</code>的值。若要完全禁止睡眠檔案，請確保<code>hibernatemode</code>、<code>standby</code>和<code>autopoweroff</code>的值都要設置為 0。</p>
+<p><code>hibernatemode = 0</code>是桌面電腦的默認設置。系統不會將記憶體備份到硬碟上。系統必須從記憶體中恢復；如果掉電，將丟失記憶體中的數據。這是一種老舊的睡眠設置。</p>
+<p><code>hibernatemode = 3</code>是便攜式電腦的默認設置。系統將存儲一份記憶體的副本到硬碟上，記憶體將持續供電。系統將會從記憶體恢復，除非掉電，迫使系統從硬碟中的睡眠檔案恢復。</p>
+<p><code>hibernatemode = 25</code>只能通過<code>pmset</code>命令來設置。系統將存儲一份記憶體的副本到硬碟上，並將切斷記憶體的供電。系統將從硬碟中的睡眠檔案恢復。如果你想以較慢的速度睡眠、恢復，獲得更長的電池壽命，那麽你可以使用這種設置。</p>
 </blockquote>
+<p>官方說明已經很清楚了，我再簡化一下，系統睡眠的時候：</p>
+<ol>
+<li>hibernatemode 值為 0：不向硬碟寫入睡眠檔案，記憶體保持供電，從記憶體恢復系統（類似於 Windows 系統的「待機」）</li>
+<li>hibernatemode 值為 3：如果記憶體通電，則從記憶體恢復系統；如果記憶體不通電，則從硬碟中的睡眠檔案恢復系統（結合了 0，25 的功能）</li>
+<li>hibernatemode 值為 25：向硬碟寫入睡眠檔案，記憶體斷電，從硬碟中的睡眠檔案恢復系統</li>
+</ol>
+<p>很顯然<code>hibernatemode = 3</code>這種設置對於 MacBook 來說是最好的設置狀態，也是默認的設置狀態，我們一般不需要進行修改。但是有些用戶偏向於更省電，那麽設置成 25 最好；有些用戶偏向於延長 SSD 壽命，那麽設置成 1 最好。</p>
+<p><code>autopoweroff</code>和<code>standby</code>的作用是到了<code>autopoweroffdelay</code>或<code>standbydelay</code>設置的時間後，就開始啟動安全睡眠模式（將記憶體中的數據寫入硬碟中的睡眠檔案，然後切斷記憶體的供電）。</p>
+<p>具體設置步驟如下：</p>
+<h3 id="1-打開「終端」，輸入"><a href="#1-打開「終端」，輸入" class="headerlink" title="1. 打開「終端」，輸入"></a>1. 打開「終端」，輸入</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ pmset -g #顯示當前電源狀態下的設置</div><div class="line">$ pmset -g custom #顯示所有電源狀態下的設置</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意 MacBook 存在<strong>插交流電(-c)</strong>和<strong>電池供電(-b)</strong>兩種不同的電源狀態，對於伺服器來說還有<strong>UPS供電(-u)</strong>的電源狀態）</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">standbydelay 10800 <span class="comment">#standby 啟動的時間。單位秒</span></div><div class="line">standby 1 <span class="comment">#處於睡眠狀態經過設定時間後，記憶體數據寫入硬碟，關閉記憶體供電。1開啟，0關閉</span></div><div class="line">womp 1 <span class="comment">#網路喚醒。1開啟，0關閉</span></div><div class="line">halfdim 1 <span class="comment">#顯示器亮度調低時間。單位分鐘</span></div><div class="line">hibernatefile /var/vm/sleepimage <span class="comment">#睡眠檔案位置</span></div><div class="line">powernap 1 <span class="comment">#PowerNAP 是否開啟。1開啟，0關閉</span></div><div class="line">gpuswitch 2 <span class="comment">#GPU 是否自動切換。1開啟，0關閉，2不支持</span></div><div class="line">networkoversleep 0 <span class="comment">#睡眠時提供共享網路服務</span></div><div class="line">disksleep 10 <span class="comment">#機械硬碟停轉時間。單位分鐘，0關閉</span></div><div class="line">sleep 0 <span class="comment">#系統睡眠的時間。單位分鐘，0關閉</span></div><div class="line">autopoweroffdelay 28800 <span class="comment">#autopoweroff 啟動的時間，單位為秒</span></div><div class="line">hibernatemode 3 <span class="comment">#睡眠方式設置</span></div><div class="line">autopoweroff 1 <span class="comment">#處於睡眠狀態經過設定時間後，記憶體寫入硬碟，關閉記憶體電源。1開啟，0關閉</span></div><div class="line">ttyskeepawake 1 <span class="comment">#遠程用戶活動時防止睡眠。1開啟，0關閉</span></div><div class="line">displaysleep 10 <span class="comment">#顯示器關閉時間。單位分鐘，0關閉</span></div><div class="line">acwake 0 <span class="comment">#電源狀態改變時喚醒。1開啟，0關閉</span></div><div class="line">lidwake 1 <span class="comment">#開蓋喚醒。1開啟，0關閉</span></div></pre></td></tr></table></figure>
+<h3 id="2-修改系統電源管理設置"><a href="#2-修改系統電源管理設置" class="headerlink" title="2. 修改系統電源管理設置"></a>2. 修改系統電源管理設置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo pmset -a(-c|-b|-U) parameter value</div></pre></td></tr></table></figure>
+<blockquote>
+<p>其中<code>-a</code>表示應用設置于所有電源狀態</p>
+</blockquote>
+<h2 id="實例"><a href="#實例" class="headerlink" title="實例"></a>實例</h2><h3 id="1-完全禁止睡眠檔案"><a href="#1-完全禁止睡眠檔案" class="headerlink" title="1. 完全禁止睡眠檔案"></a>1. 完全禁止睡眠檔案</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ sudo pmset <span class="_">-a</span> hibernatemode 0</div><div class="line">$ sudo pmset <span class="_">-a</span> standby 0</div><div class="line">$ sudo pmset <span class="_">-a</span> autopoweroff 0</div><div class="line">$ sudo rm /var/vm/sleepimage</div></pre></td></tr></table></figure>
+<h3 id="2-寫入睡眠檔案，並徹底斷電"><a href="#2-寫入睡眠檔案，並徹底斷電" class="headerlink" title="2. 寫入睡眠檔案，並徹底斷電"></a>2. 寫入睡眠檔案，並徹底斷電</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo pmset -a hibernatemode 25</div></pre></td></tr></table></figure>
+<h2 id="參考文獻"><a href="#參考文獻" class="headerlink" title="參考文獻"></a>參考文獻</h2><ol>
+<li>Wikipedia：<a href="https://en.wikipedia.org/wiki/Pmset" rel="external nofollow noopener noreferrer" target="_blank">pmset 詞條</a></li>
+</ol>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/367e62cd/">
-
-  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xiaocrab">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="xiaocrab.net">
-    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/367e62cd/" itemprop="url">
-                  告別渣顯示效果，Windows 字型渲染指引
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-02-19T00:00:00+08:00">
-                2015-02-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/macOS/" rel="tag"># macOS</a>
           
-
+            <a href="/tags/Sierra/" rel="tag"># Sierra</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/367e62cd/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/367e62cd/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
+            <a href="/tags/Hibernate/" rel="tag"># Hibernate</a>
           
-
+            <a href="/tags/Sleep/" rel="tag"># Sleep</a>
           
-
+            <a href="/tags/睡眠/" rel="tag"># 睡眠</a>
           
-          
-             <span id="/posts/367e62cd/" class="leancloud_visitors" data-flag-title="告別渣顯示效果，Windows 字型渲染指引">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">閱讀次數 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p>眾所周知，Windows 作業系統的字型渲染效果實在是渣！透！了！即便是最新的 Windows 10 作業系統也沒有太大的改善。</p>
-<p>從 XP 開始，微軟搞了一個叫 <code>ClearType</code> 的技術（XP 系統使用者可以百度下載這個插件，安裝使用十分簡單）可以改善字型（微軟雅黑等）的渲染效果，但這僅僅是「有所改善」，因為不開 ClearType 簡直沒！法！看！</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/367e62cd/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/77bdf612/" rel="next" title="公共 DNS 伺服器推薦">
+                <i class="fa fa-chevron-left"></i> 公共 DNS 伺服器推薦
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
+          <span class="post-nav-divider"></span>
 
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/1b8b6df6/" rel="prev" title="僅需半小時，讓你的所有設備都能穩定可靠的番羽土嗇">
+                僅需半小時，讓你的所有設備都能穩定可靠的番羽土嗇 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
-  </nav>
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -1126,6 +519,13 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="posts/f8a16df0/" data-title="macOS Sierra 睡眠方式設置" data-url="http://xiaocrab.net/posts/f8a16df0/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -1145,8 +545,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Xiaocrab">
           <p class="site-author-name" itemprop="name">Xiaocrab</p>
@@ -1233,6 +642,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#設置介紹"><span class="nav-number">1.</span> <span class="nav-text">設置介紹</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-打開「終端」，輸入"><span class="nav-number">1.1.</span> <span class="nav-text">1. 打開「終端」，輸入</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-修改系統電源管理設置"><span class="nav-number">1.2.</span> <span class="nav-text">2. 修改系統電源管理設置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#實例"><span class="nav-number">2.</span> <span class="nav-text">實例</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-完全禁止睡眠檔案"><span class="nav-number">2.1.</span> <span class="nav-text">1. 完全禁止睡眠檔案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-寫入睡眠檔案，並徹底斷電"><span class="nav-number">2.2.</span> <span class="nav-text">2. 寫入睡眠檔案，並徹底斷電</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#參考文獻"><span class="nav-number">3.</span> <span class="nav-text">參考文獻</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
@@ -1321,6 +746,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
