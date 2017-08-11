@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://xiaocrab.net/posts/f1d25a1c/</loc>
+    <lastmod>2017-08-11T09:45:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>GPG 公鈅</title>
+        <pubTime>2015-07-31T16:00:00.000Z</pubTime>
+        
+        <tag>GPG</tag>
+         
+        <tag>Key</tag>
+         
+         
+           
+             
+              <breadCrumb title="Safe" url="http://xiaocrab.net/categories/Safe/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://xiaocrab.net/posts/481c1df8/</loc>
-    <lastmod>2017-07-30T14:47:36.000Z</lastmod>
+    <lastmod>2017-08-02T11:43:01.000Z</lastmod>
     <data>
         <display>
         <title>免費激活 PyCharm 專業版及其他 JetBrains 公司軟件</title>
@@ -21,6 +43,28 @@
            
              
               <breadCrumb title="Dev" url="http://xiaocrab.net/categories/Dev/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://xiaocrab.net/posts/58ce493e/</loc>
+    <lastmod>2017-07-30T14:49:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>紀大學最後一次考試</title>
+        <pubTime>2015-01-07T16:00:00.000Z</pubTime>
+        
+        <tag>Exam</tag>
+         
+        <tag>Cheat</tag>
+         
+         
+           
+             
+              <breadCrumb title="Life" url="http://xiaocrab.net/categories/Life/"/>
           
         </display>
     </data>
@@ -62,9 +106,9 @@
         <title>群暉 Synology DSM 第三方源 SynoCommunity 添加和使用教程</title>
         <pubTime>2017-02-06T04:00:00.000Z</pubTime>
         
-        <tag>Synology</tag>
-         
         <tag>群暉</tag>
+         
+        <tag>Synology</tag>
          
         <tag>DSM</tag>
          
@@ -228,28 +272,6 @@
            
              
               <breadCrumb title="IT" url="http://xiaocrab.net/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://xiaocrab.net/posts/58ce493e/</loc>
-    <lastmod>2017-02-04T13:58:10.000Z</lastmod>
-    <data>
-        <display>
-        <title>紀大學最後一次考試</title>
-        <pubTime>2015-01-07T16:00:00.000Z</pubTime>
-        
-        <tag>Exam</tag>
-         
-        <tag>Cheat</tag>
-         
-         
-           
-             
-              <breadCrumb title="Study" url="http://xiaocrab.net/categories/Study/"/>
           
         </display>
     </data>
