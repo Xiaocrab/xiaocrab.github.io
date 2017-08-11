@@ -88,22 +88,22 @@
 
 <meta name="description" content="DNS（Domain Name System）是專門用來解析域名的一項協議。
 比如我們要訪問 Google 主頁，大致過程如下：首先瀏覽器向 DNS 服務器發出請求，DNS 服務器會返回一個對應的 IP 地址，接著瀏覽器向這個 IP 地址發出 HTTP 連接請求，建立連接傳輸網頁數據，瀏覽器解析網頁數據。
-這是一個傳統的解析過程，然而由於最初設計上的缺陷，在 DNS 解析和 HTTP 連接全過程中">
+這是一個傳統的解析過程，然而由於最初設計方面的缺陷，在 DNS 解析和 HTTP 連接全過程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="加密 DNS 傳輸，就用 DNSCrypt">
 <meta property="og:url" content="http://xiaocrab.net/posts/21a7a5cc/index.html">
 <meta property="og:site_name" content="xiaocrab.net">
 <meta property="og:description" content="DNS（Domain Name System）是專門用來解析域名的一項協議。
 比如我們要訪問 Google 主頁，大致過程如下：首先瀏覽器向 DNS 服務器發出請求，DNS 服務器會返回一個對應的 IP 地址，接著瀏覽器向這個 IP 地址發出 HTTP 連接請求，建立連接傳輸網頁數據，瀏覽器解析網頁數據。
-這是一個傳統的解析過程，然而由於最初設計上的缺陷，在 DNS 解析和 HTTP 連接全過程中">
+這是一個傳統的解析過程，然而由於最初設計方面的缺陷，在 DNS 解析和 HTTP 連接全過程">
 <meta property="og:image" content="https://okr5ln1ms.qnssl.com/QQ20170811-211927@2x.png">
 <meta property="og:image" content="https://okr5ln1ms.qnssl.com/2017-08-11-224014.png">
-<meta property="og:updated_time" content="2017-08-11T15:14:25.000Z">
+<meta property="og:updated_time" content="2017-08-11T15:34:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="加密 DNS 傳輸，就用 DNSCrypt">
 <meta name="twitter:description" content="DNS（Domain Name System）是專門用來解析域名的一項協議。
 比如我們要訪問 Google 主頁，大致過程如下：首先瀏覽器向 DNS 服務器發出請求，DNS 服務器會返回一個對應的 IP 地址，接著瀏覽器向這個 IP 地址發出 HTTP 連接請求，建立連接傳輸網頁數據，瀏覽器解析網頁數據。
-這是一個傳統的解析過程，然而由於最初設計上的缺陷，在 DNS 解析和 HTTP 連接全過程中">
+這是一個傳統的解析過程，然而由於最初設計方面的缺陷，在 DNS 解析和 HTTP 連接全過程">
 <meta name="twitter:image" content="https://okr5ln1ms.qnssl.com/QQ20170811-211927@2x.png">
 
 
@@ -355,8 +355,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/Safe/" itemprop="url" rel="index">
-                    <span itemprop="name">Safe</span>
+                  <a href="/categories/Security/" itemprop="url" rel="index">
+                    <span itemprop="name">Security</span>
                   </a>
                 </span>
 
@@ -413,14 +413,14 @@
       
         <p>DNS（Domain Name System）是專門用來解析域名的一項協議。</p>
 <p>比如我們要訪問 <a href="https://google.com" rel="external nofollow noopener noreferrer" target="_blank">Google 主頁</a>，大致過程如下：首先瀏覽器向 DNS 服務器發出請求，DNS 服務器會返回一個對應的 IP 地址，接著瀏覽器向這個 IP 地址發出 HTTP 連接請求，建立連接傳輸網頁數據，瀏覽器解析網頁數據。</p>
-<p>這是一個傳統的解析過程，然而由於最初設計上的缺陷，在 DNS 解析和 HTTP 連接全過程中，都是採用明文傳輸的數據（類似於「裸奔」），極易受到「中間人」的攻擊。</p>
-<p>那麽為了確保客戶端與服務器之間安全的傳輸，後來制定了 DNSSEC 、HTTPS 等技術。HTTPS 加密了 HTTP 傳輸的數據，確保了傳輸安全，而 DNSSEC 只是對 DNS 數據加了電子簽名，在傳輸過程中並沒有對數據進行加密，只能驗證傳輸過程中數據是否經過了篡改。</p>
+<p>這是一個傳統的解析過程，然而由於最初設計方面的缺陷，在 DNS 解析和 HTTP 連接全過程中，都是採用明文傳輸的數據（類似於「裸奔」），極易泄露數據和受到攻擊。</p>
+<p>那麽為了確保客戶端與服務器之間安全的傳輸，後來制定了 DNSSEC 、HTTPS 等協議。HTTPS 加密了 HTTP 傳輸的數據，確保了傳輸安全，而 DNSSEC 只是對 DNS 數據加了電子簽名，在傳輸過程中並沒有對數據進行加密，只能驗證傳輸過程中數據是否經過了篡改。</p>
 <a id="more"></a>
 <p>基於此，計算機網絡界大佬——Cisco 公司，研發了一個加密 DNS 傳輸的協議——DNSCrypt（<a href="https://www.opendns.com/about/innovations/dnscrypt/" rel="external nofollow noopener noreferrer" target="_blank">介紹頁面</a>）。使用 DNSCrypt 協議可以加密傳輸客戶端到支持 DNSCrypt 協議的 DNS 服務器之間的連接，確保不會受到 DNS 攻擊。</p>
 <h2 id="使用-DNSCrypt"><a href="#使用-DNSCrypt" class="headerlink" title="使用 DNSCrypt"></a>使用 DNSCrypt</h2><p><a href="https://dnscrypt.org/" rel="external nofollow noopener noreferrer" target="_blank">DNSCrypt</a> 已經開源，可以運行在絕大多數系統之上。</p>
-<h3 id="在-macOS-系統上使用"><a href="#在-macOS-系統上使用" class="headerlink" title="在 macOS 系統上使用"></a>在 macOS 系統上使用</h3><p>推薦下載 <a href="https://github.com/alterstep/dnscrypt-osxclient" rel="external nofollow noopener noreferrer" target="_blank">DNSCrypt-OSXClient</a> 工具，這是一個圖形化工具，安裝包採用標準的 pkg 安裝過程。安裝完成後只需打開 DNSCrypt ，在提供的 DNS 服務器列表中選擇一個服務器（按需選擇，建議選擇 OpenDNS 服務器），然後勾選上「Enable DNSCrypt」，DNSCrypt 就開始正常工作了。<br><img src="https://okr5ln1ms.qnssl.com/QQ20170811-211927@2x.png" alt=""></p>
-<h3 id="在-Windows-系統上使用"><a href="#在-Windows-系統上使用" class="headerlink" title="在 Windows 系統上使用"></a>在 Windows 系統上使用</h3><p>推薦下載 <a href="https://simplednscrypt.org/" rel="external nofollow noopener noreferrer" target="_blank">Simple DNSCrypt</a> 工具，這也是一個圖形化易於操作的工具。提供了兩個 DNS 服務設置的選項，可以根據需要配置服務器並且開始工作。<br><img src="https://okr5ln1ms.qnssl.com/2017-08-11-224014.png" alt=""></p>
-<h3 id="在-Linux-系統上使用"><a href="#在-Linux-系統上使用" class="headerlink" title="在 Linux 系統上使用"></a>在 Linux 系統上使用</h3><p>對於 Liunx 系統，可以安裝 <a href="https://github.com/gortcodex/dnscrypt-loader" rel="external nofollow noopener noreferrer" target="_blank">DNSCrypt-Loader</a> 或 <a href="https://github.com/chengr28/Pcap_DNSProxy" rel="external nofollow noopener noreferrer" target="_blank">Pcap_DNSProxy</a> 工具。</p>
+<h3 id="在-macOS-系統上使用"><a href="#在-macOS-系統上使用" class="headerlink" title="在 macOS 系統上使用"></a>在 macOS 系統上使用</h3><p>推薦使用 <a href="https://github.com/alterstep/dnscrypt-osxclient" rel="external nofollow noopener noreferrer" target="_blank">DNSCrypt-OSXClient</a> 工具，這是一個圖形化工具，安裝包採用標準的 pkg 安裝過程。安裝完成後只需打開 DNSCrypt ，在提供的 DNS 服務器列表中選擇一個服務器（按需選擇，建議選擇 OpenDNS 服務器），然後勾選上「Enable DNSCrypt」，DNSCrypt 就開始工作了。<br><img src="https://okr5ln1ms.qnssl.com/QQ20170811-211927@2x.png" alt=""></p>
+<h3 id="在-Windows-系統上使用"><a href="#在-Windows-系統上使用" class="headerlink" title="在 Windows 系統上使用"></a>在 Windows 系統上使用</h3><p>推薦使用 <a href="https://simplednscrypt.org/" rel="external nofollow noopener noreferrer" target="_blank">Simple DNSCrypt</a> 工具，這也是一個圖形化易於操作的工具。提供了兩個 DNS 服務設置的選項，可以根據需要配置服務器並且開始工作。<br><img src="https://okr5ln1ms.qnssl.com/2017-08-11-224014.png" alt=""></p>
+<h3 id="在-Linux-系統上使用"><a href="#在-Linux-系統上使用" class="headerlink" title="在 Linux 系統上使用"></a>在 Linux 系統上使用</h3><p>推薦使用 <a href="https://github.com/gortcodex/dnscrypt-loader" rel="external nofollow noopener noreferrer" target="_blank">DNSCrypt-Loader</a> 或 <a href="https://github.com/chengr28/Pcap_DNSProxy" rel="external nofollow noopener noreferrer" target="_blank">Pcap_DNSProxy</a> 工具。</p>
 <h3 id="在-iOS、Android-系統上使用"><a href="#在-iOS、Android-系統上使用" class="headerlink" title="在 iOS、Android 系統上使用"></a>在 iOS、Android 系統上使用</h3><p>在 iOS 上使用首先要越獄設備，Android 系統上要 Root 系統，然而這些操作可能會導致一定的安全風險，我們並不提倡這麽做，除非你非要使用 DNSCrypt。</p>
 <h3 id="在路由器上使用"><a href="#在路由器上使用" class="headerlink" title="在路由器上使用"></a>在路由器上使用</h3><p>根據官網的介紹，DNSCrypt 可以在 Tomato、OpenWrt 和 Entware 系統上運行。</p>
 <h3 id="搭建服務器"><a href="#搭建服務器" class="headerlink" title="搭建服務器"></a>搭建服務器</h3><p>你可以在傳統 DNS 服務器上添加 DNSCrypt 協議的支持，最簡單的方法就是通過 <a href="https://github.com/jedisct1/dnscrypt-server-docker" rel="external nofollow noopener noreferrer" target="_blank">Docker 映像</a> 來運行。</p>
@@ -549,7 +549,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">分類</span>
               </a>
             </div>
