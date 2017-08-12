@@ -45,14 +45,15 @@
     <link href="http://xiaocrab.net/posts/1d16f3f2/"/>
     <id>http://xiaocrab.net/posts/1d16f3f2/</id>
     <published>2017-08-01T04:00:00.000Z</published>
-    <updated>2017-08-12T13:10:17.000Z</updated>
+    <updated>2017-08-12T13:53:50.000Z</updated>
     
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Virtual Network&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。&lt;/p&gt;
-&lt;p&gt;——翻譯
+&lt;p&gt;&lt;strong&gt;Virtual Network&lt;/strong&gt;&lt;br&gt;Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。&lt;br&gt;——翻譯自 &lt;a href=&quot;https://www.zerotier.com/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Zerotier 官網&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;你可能對以上的解釋很費解，簡單來說就是：通過 Zerotier 這個程序，無論你的設備或者應用採用的是什麽方式接入的 Internet，只要能「上網」，就可以把它們都聯繫在一個虛擬的局域網裏面。&lt;/p&gt;
+&lt;p&gt;神不神奇！&lt;/p&gt;
     
     </summary>
     
