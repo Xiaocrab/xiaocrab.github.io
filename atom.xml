@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-08-12T03:08:58.000Z</updated>
+  <updated>2017-08-12T03:11:37.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://xiaocrab.net/posts/21a7a5cc/"/>
     <id>http://xiaocrab.net/posts/21a7a5cc/</id>
     <published>2017-08-10T16:00:00.000Z</published>
-    <updated>2017-08-12T03:08:58.000Z</updated>
+    <updated>2017-08-12T03:11:37.000Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,31 @@
       <category term="DNS" scheme="http://xiaocrab.net/tags/DNS/"/>
     
       <category term="DNSCrypt" scheme="http://xiaocrab.net/tags/DNSCrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>構建你的虛擬網絡，用 ZeroTier</title>
+    <link href="http://xiaocrab.net/posts/1d16f3f2/"/>
+    <id>http://xiaocrab.net/posts/1d16f3f2/</id>
+    <published>2017-08-01T04:00:00.000Z</published>
+    <updated>2017-08-12T13:10:17.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Virtual Network&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。&lt;/p&gt;
+&lt;p&gt;——翻譯
+    
+    </summary>
+    
+      <category term="Security" scheme="http://xiaocrab.net/categories/Security/"/>
+    
+    
+      <category term="ZeroTier" scheme="http://xiaocrab.net/tags/ZeroTier/"/>
+    
+      <category term="SDN" scheme="http://xiaocrab.net/tags/SDN/"/>
     
   </entry>
   

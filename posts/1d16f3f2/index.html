@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
 
 
-  <meta name="keywords" content="Recovery,Files,WinPE,">
+  <meta name="keywords" content="ZeroTier,SDN,">
 
 
 
@@ -86,19 +86,34 @@
 
 
 
-<meta name="description" content="前幾天，準備調整一下硬碟的分區。在 WinXP 下，分區的操作不能正常進行，於是我用 U 盤啟動 WinPE 進行分區。
-在 WinPE 下，我啟動了分區魔術師8.0，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有一個 7MB 左右的未分配空間。我想把那 7MB 利用起來，分給 C 盤（把原來邏輯分區的空間，分給主分區）。原來的分區情況是這樣的：C 盤是主分區，D、Ｅ、">
+<meta name="description" content="Virtual Network
+Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。
+——翻譯自 Zerotier 官網
+
+你可能對以上的解釋很費解，簡單來說就是：通過 Zerotier 這個程序，無論你的設備或者應用採用的是什麽方式接入的 Internet，只要能「上網」，就可以把它們都聯繫在一個虛擬的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="文件數據歷險記">
-<meta property="og:url" content="http://xiaocrab.net/posts/1a93e937/index.html">
+<meta property="og:title" content="構建你的虛擬網絡，用 ZeroTier">
+<meta property="og:url" content="http://xiaocrab.net/posts/1d16f3f2/index.html">
 <meta property="og:site_name" content="xiaocrab.net">
-<meta property="og:description" content="前幾天，準備調整一下硬碟的分區。在 WinXP 下，分區的操作不能正常進行，於是我用 U 盤啟動 WinPE 進行分區。
-在 WinPE 下，我啟動了分區魔術師8.0，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有一個 7MB 左右的未分配空間。我想把那 7MB 利用起來，分給 C 盤（把原來邏輯分區的空間，分給主分區）。原來的分區情況是這樣的：C 盤是主分區，D、Ｅ、">
-<meta property="og:updated_time" content="2017-02-05T00:55:01.000Z">
+<meta property="og:description" content="Virtual Network
+Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。
+——翻譯自 Zerotier 官網
+
+你可能對以上的解釋很費解，簡單來說就是：通過 Zerotier 這個程序，無論你的設備或者應用採用的是什麽方式接入的 Internet，只要能「上網」，就可以把它們都聯繫在一個虛擬的">
+<meta property="og:image" content="https://okr5ln1ms.qnssl.com/20170812210508_8mH56c_QQ20170812-202139@2x.jpeg">
+<meta property="og:image" content="https://okr5ln1ms.qnssl.com/20170812210716_wIoV8T_QQ20170812-203855@2x.jpeg">
+<meta property="og:image" content="https://okr5ln1ms.qnssl.com/20170812210750_tN0OrI_QQ20170812-205118@2x.jpeg">
+<meta property="og:image" content="https://okr5ln1ms.qnssl.com/20170812210615_BHi9yI_QQ20170812-202739@2x.jpeg">
+<meta property="og:image" content="https://okr5ln1ms.qnssl.com/20170812210812_E2eV6S_QQ20170812-210357@2x.jpeg">
+<meta property="og:updated_time" content="2017-08-12T13:10:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="文件數據歷險記">
-<meta name="twitter:description" content="前幾天，準備調整一下硬碟的分區。在 WinXP 下，分區的操作不能正常進行，於是我用 U 盤啟動 WinPE 進行分區。
-在 WinPE 下，我啟動了分區魔術師8.0，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有一個 7MB 左右的未分配空間。我想把那 7MB 利用起來，分給 C 盤（把原來邏輯分區的空間，分給主分區）。原來的分區情況是這樣的：C 盤是主分區，D、Ｅ、">
+<meta name="twitter:title" content="構建你的虛擬網絡，用 ZeroTier">
+<meta name="twitter:description" content="Virtual Network
+Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。
+——翻譯自 Zerotier 官網
+
+你可能對以上的解釋很費解，簡單來說就是：通過 Zerotier 這個程序，無論你的設備或者應用採用的是什麽方式接入的 Internet，只要能「上網」，就可以把它們都聯繫在一個虛擬的">
+<meta name="twitter:image" content="https://okr5ln1ms.qnssl.com/20170812210508_8mH56c_QQ20170812-202139@2x.jpeg">
 
 
 
@@ -126,13 +141,13 @@
 
 
 
-  <link rel="canonical" href="http://xiaocrab.net/posts/1a93e937/">
+  <link rel="canonical" href="http://xiaocrab.net/posts/1d16f3f2/">
 
 
 
 
 
-  <title> 文件數據歷險記 | xiaocrab.net </title>
+  <title> 構建你的虛擬網絡，用 ZeroTier | xiaocrab.net </title>
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hant">
@@ -287,7 +302,7 @@
   
 
   <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/1a93e937/">
+  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/1d16f3f2/">
 
   <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Xiaocrab">
@@ -311,7 +326,7 @@
             
             
               
-                文件數據歷險記
+                構建你的虛擬網絡，用 ZeroTier
               
             
           </h1>
@@ -326,8 +341,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2009-02-17T00:00:00+08:00">
-                2009-02-17
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-01T12:00:00+08:00">
+                2017-08-01
               </time>
             
 
@@ -349,8 +364,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
+                  <a href="/categories/Security/" itemprop="url" rel="index">
+                    <span itemprop="name">Security</span>
                   </a>
                 </span>
 
@@ -367,8 +382,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/posts/1a93e937/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/1a93e937/" itemprop="commentCount"></span>
+                <a href="/posts/1d16f3f2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/1d16f3f2/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -378,7 +393,7 @@
 
           
           
-             <span id="/posts/1a93e937/" class="leancloud_visitors" data-flag-title="文件數據歷險記">
+             <span id="/posts/1d16f3f2/" class="leancloud_visitors" data-flag-title="構建你的虛擬網絡，用 ZeroTier">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -405,15 +420,37 @@
       
 
       
-        <p>前幾天，準備調整一下硬碟的分區。在 WinXP 下，分區的操作不能正常進行，於是我用 U 盤啟動 WinPE 進行分區。</p>
-<p>在 WinPE 下，我啟動了<em>分區魔術師8.0</em>，準備調整一下 D 盤的容量。由於計算時的馬虎，分完區後，在 D 盤的後面有一個 7MB 左右的<em>未分配空間</em>。我想把那 7MB 利用起來，分給 C 盤（把原來邏輯分區的空間，分給主分區）。原來的分區情況是這樣的：C 盤是主分區，D、Ｅ、Ｆ、Ｇ都是邏輯分區。那軟體雖然是漢化的，但是Ｅ文挺多的，有些Ｅ文我看不懂，所以選的 Next。結果我的分區只剩 C 了，其他的 Ｄ、Ｅ、Ｆ、Ｇ都變成了未分區。那些分區裡可儲存著這兩年來的心血呀。一定要想辦法找回來！<br><a id="more"></a><br>接著我退出了 WinPE，啟動了 WinXP。在 WinXP 下只能看到 C 盤，要是 C 盤也丟了，那可就完蛋了。我又啟動了 WinPE，在 WinPE 裡有一個軟體叫<em>易我分區表醫生</em>，就是這個軟體才讓我的分區得以重建，真感謝研發這個軟體的公司呀。修復完成以後，重啟下機器。裏面的文件完好無損。化險為夷！</p>
-<p><strong>感悟</strong>：</p>
-<p>分區最好請個老鳥來整，同時要備份好重要資料，準備好常用軟體。</p>
-<p><strong>推薦軟體：</strong></p>
-<ul>
-<li>WinPE（作業系統維護平台）</li>
-<li>易我分區表醫生（硬碟分區恢復工具）</li>
-<li><del>分區魔術師</del> DiskGenius（硬碟分區全能工具）</li>
+        <blockquote>
+<p><strong>Virtual Network</strong></p>
+<p>Zerotier 通過一個系統就可以提供 VPN、SDN、SD-WAN 的功能。網絡中幾乎任何一種設備或程序，就像是整個星球中的一片云區域一樣。</p>
+<p>——翻譯自 <a href="https://www.zerotier.com/" rel="external nofollow noopener noreferrer" target="_blank">Zerotier 官網</a></p>
+</blockquote>
+<p>你可能對以上的解釋很費解，簡單來說就是：通過 Zerotier 這個程序，無論你的設備或者應用採用的是什麽方式接入的 Internet，只要能「上網」，就可以把它們都聯繫在一個虛擬的局域網裏面。</p>
+<p>神不神奇！</p>
+<p>&lt;!—more—&gt;</p>
+<p>Zerotier 目前是個免費並且開源的技術，採用 P2P 技術，可以讓你通過安全的在局域網或廣域網上以相同方式工作的虛擬網絡來連接任何東西。它還可以嵌入到應用程序、容器、物聯網設備和售貨亭中，以提供一站式的零配置安全遠程接入。</p>
+<p>ZeroTier One 是 ZeroTier 為 電腦、平板、手機、NAS 等設備開發的官方客戶端軟件。需要安裝和配置客戶端才能使用 ZeroTier 提供的虛擬網絡。網絡的管理通過 <a href="https://my.zerotier.com/" rel="external nofollow noopener noreferrer" target="_blank">管理中心網頁</a> 操作。</p>
+<h2 id="安裝客戶端"><a href="#安裝客戶端" class="headerlink" title="安裝客戶端"></a>安裝客戶端</h2><p>打開 <a href="http://www.zerotier.com/download.shtml" rel="external nofollow noopener noreferrer" target="_blank">ZeroTier One 官方下載頁面</a>，下載對應的軟件。目前官方提供了 Windows（7 以上版本），macOS（10.7 以上版本），iOS（9 以上版本），Android，Linux（DEB 和 RPM），QNAP NAS、Synology NAS，WD MyCloud NAS，FreeBSD，OpenWRT 等系統（設備）的客戶端下載，其他不支持的設備需要 <a href="https://github.com/zerotier/ZeroTierOne" rel="external nofollow noopener noreferrer" target="_blank">下載源碼</a> 自行編譯。</p>
+<p>安裝過程非常簡單，基本上一路「下一步」就能裝好。</p>
+<h2 id="創建和管理虛擬網絡"><a href="#創建和管理虛擬網絡" class="headerlink" title="創建和管理虛擬網絡"></a>創建和管理虛擬網絡</h2><p>網絡的管理通過 <a href="https://my.zerotier.com/" rel="external nofollow noopener noreferrer" target="_blank">管理中心網頁</a> 操作。</p>
+<p>首先，要註冊一個 ZeroTier 帳號用來管理你的虛擬網絡。</p>
+<p>註冊登錄以後，在「Account」頁面可以設置賬戶基本信息，以及選擇訂閱方案，一般情況下 Free 方案已經足夠我們使用。需要注意的是免費方案限制了一個私有虛擬網絡只能連接 100 個以下的設備。</p>
+<p>「System」頁面顯示了當前 ZeroTier 中心服務器的運行狀況。</p>
+<p>我們最常用的是「Network」頁面，在這裏完成網絡管理的各項操作，點擊「Create」創建網絡，一個網絡包括一個名稱和 16 位字符的網絡 ID。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/20170812210508_8mH56c_QQ20170812-202139@2x.jpeg" alt=""></p>
+<p>點擊網絡名稱進入管理頁面。一般情況下我們創建私有網絡（Private Network），然後指定 IP 地址範圍。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/20170812210716_wIoV8T_QQ20170812-203855@2x.jpeg" alt=""></p>
+<p>在客戶端加入網絡之後，需要到「Nembers」這個地方確認一下，才能順利加入網絡。也可以在這裏直接輸入客戶端的 ID。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/20170812210750_tN0OrI_QQ20170812-205118@2x.jpeg" alt=""></p>
+<h2 id="加入虛擬網絡"><a href="#加入虛擬網絡" class="headerlink" title="加入虛擬網絡"></a>加入虛擬網絡</h2><p>打開客戶端，點擊「Join Network」，然後輸入 16 位的網絡 ID 即可加入一個虛擬網絡。之後，你甚至就可以忘掉這個客戶端了，它會在電腦開機時自動運行 ZeroTier 的服務。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/20170812210615_BHi9yI_QQ20170812-202739@2x.jpeg" alt=""></p>
+<p>通過客戶端還可以查看虛擬網絡狀態，以及退出虛擬網絡。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/20170812210812_E2eV6S_QQ20170812-210357@2x.jpeg" alt=""></p>
+<h2 id="使用虛擬網絡"><a href="#使用虛擬網絡" class="headerlink" title="使用虛擬網絡"></a>使用虛擬網絡</h2><p>正常配置好虛擬網絡之後，就可以像使用物理局域網那樣來使用虛擬網絡了。比如在虛擬網絡設備間共享文件、遠程控制等。</p>
+<h2 id="相關概念強化"><a href="#相關概念強化" class="headerlink" title="相關概念強化"></a>相關概念強化</h2><ul>
+<li>每個 ZeroTier 虛擬網絡都有一個「網絡 ID」，由 16 位字符組成，用於管理和加入網絡。</li>
+<li>每個設備有一個 10 位字符的「節點 ID」，用來管理設備。</li>
+<li>每個加入的虛擬網絡會在系統裏面生成一個虛擬網卡，這個虛擬網卡的使用方式和物理網卡是一模一樣的。</li>
 </ul>
 
       
@@ -438,11 +475,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Recovery/" rel="tag"># Recovery</a>
+            <a href="/tags/ZeroTier/" rel="tag"># ZeroTier</a>
           
-            <a href="/tags/Files/" rel="tag"># Files</a>
-          
-            <a href="/tags/WinPE/" rel="tag"># WinPE</a>
+            <a href="/tags/SDN/" rel="tag"># SDN</a>
           
         </div>
       
@@ -451,14 +486,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/posts/481c1df8/" rel="next" title="免費激活 PyCharm 專業版及其他 JetBrains 公司軟件">
+                <i class="fa fa-chevron-left"></i> 免費激活 PyCharm 專業版及其他 JetBrains 公司軟件
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/posts/79640a53/" rel="prev" title="Windows 7 使用 2 年的心得">
-                Windows 7 使用 2 年的心得 <i class="fa fa-chevron-right"></i>
+              <a href="/posts/21a7a5cc/" rel="prev" title="加密 DNS 傳輸，就用 DNSCrypt">
+                加密 DNS 傳輸，就用 DNSCrypt <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -485,7 +524,7 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="posts/1a93e937/" data-title="文件數據歷險記" data-url="http://xiaocrab.net/posts/1a93e937/">
+      <div class="ds-thread" data-thread-key="posts/1d16f3f2/" data-title="構建你的虛擬網絡，用 ZeroTier" data-url="http://xiaocrab.net/posts/1d16f3f2/">
       </div>
     
   </div>
@@ -509,8 +548,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Xiaocrab">
           <p class="site-author-name" itemprop="name">Xiaocrab</p>
@@ -597,6 +645,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝客戶端"><span class="nav-number">1.</span> <span class="nav-text">安裝客戶端</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#創建和管理虛擬網絡"><span class="nav-number">2.</span> <span class="nav-text">創建和管理虛擬網絡</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加入虛擬網絡"><span class="nav-number">3.</span> <span class="nav-text">加入虛擬網絡</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用虛擬網絡"><span class="nav-number">4.</span> <span class="nav-text">使用虛擬網絡</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相關概念強化"><span class="nav-number">5.</span> <span class="nav-text">相關概念強化</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
