@@ -4,16 +4,16 @@
 
     
   <url>
-    <loc>http://xiaocrab.net/posts/f1d25a1c/</loc>
-    <lastmod>2017-08-11T15:34:14.000Z</lastmod>
+    <loc>http://xiaocrab.net/posts/21a7a5cc/</loc>
+    <lastmod>2017-08-12T03:08:58.000Z</lastmod>
     <data>
         <display>
-        <title>GPG 公鈅</title>
-        <pubTime>2015-07-31T16:00:00.000Z</pubTime>
+        <title>加密 DNS 傳輸，就用 DNSCrypt</title>
+        <pubTime>2017-08-10T16:00:00.000Z</pubTime>
         
-        <tag>GPG</tag>
+        <tag>DNS</tag>
          
-        <tag>Key</tag>
+        <tag>DNSCrypt</tag>
          
          
            
@@ -26,16 +26,16 @@
 
     
   <url>
-    <loc>http://xiaocrab.net/posts/21a7a5cc/</loc>
-    <lastmod>2017-08-11T15:34:04.000Z</lastmod>
+    <loc>http://xiaocrab.net/posts/f1d25a1c/</loc>
+    <lastmod>2017-08-11T15:34:14.000Z</lastmod>
     <data>
         <display>
-        <title>加密 DNS 傳輸，就用 DNSCrypt</title>
-        <pubTime>2017-08-10T16:00:00.000Z</pubTime>
+        <title>GPG 公鈅</title>
+        <pubTime>2015-07-31T16:00:00.000Z</pubTime>
         
-        <tag>DNS</tag>
+        <tag>GPG</tag>
          
-        <tag>DNSCrypt</tag>
+        <tag>Key</tag>
          
          
            
