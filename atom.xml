@@ -45,7 +45,7 @@
     <link href="http://xiaocrab.net/posts/1d16f3f2/"/>
     <id>http://xiaocrab.net/posts/1d16f3f2/</id>
     <published>2017-08-01T04:00:00.000Z</published>
-    <updated>2017-08-12T13:53:50.000Z</updated>
+    <updated>2017-08-12T13:57:34.000Z</updated>
     
     <summary type="html">
     
@@ -88,6 +88,31 @@
       <category term="Python" scheme="http://xiaocrab.net/tags/Python/"/>
     
       <category term="Activate" scheme="http://xiaocrab.net/tags/Activate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IT 相關常用易錯專有名詞的正確拼寫</title>
+    <link href="http://xiaocrab.net/posts/9b71d3fa/"/>
+    <id>http://xiaocrab.net/posts/9b71d3fa/</id>
+    <published>2017-07-01T04:00:00.000Z</published>
+    <updated>2017-08-13T14:16:50.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;專用名詞特指某個事物，通常第一個字母大寫。但是在 IT 屆，有些專有名詞並沒有遵守這個規定。&lt;br&gt;如果在日常寫作之中，特別是在比較正式的場合，沒有正確的拼寫，該小寫的時候大寫，該空格的時候沒有空格等，會顯得不夠專業、不夠細緻。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面羅列了 IT 相關常用易錯專有名詞，拼寫以官方出處為準。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://xiaocrab.net/categories/IT/"/>
+    
+    
+      <category term="名詞" scheme="http://xiaocrab.net/tags/%E5%90%8D%E8%A9%9E/"/>
+    
+      <category term="拼寫" scheme="http://xiaocrab.net/tags/%E6%8B%BC%E5%AF%AB/"/>
     
   </entry>
   
