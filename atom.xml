@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-08-16T13:26:56.000Z</updated>
+  <updated>2017-08-16T13:37:15.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://xiaocrab.net/posts/d0a36e33/"/>
     <id>http://xiaocrab.net/posts/d0a36e33/</id>
     <published>2017-08-16T04:00:00.000Z</published>
-    <updated>2017-08-16T13:26:56.000Z</updated>
+    <updated>2017-08-16T13:37:15.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;網絡時間協議（Network Time Protocol，簡稱 NTP）是在設備之間進行時鐘同步的一個協議。簡單來說，就是可以自動配置設備的時間，免去了手工設置時間的繁瑣步驟。&lt;/p&gt;
-&lt;p&gt;在以前計算機網絡並不是很發達的年代，要是設備沒有聯網，只能手工設置時間。而現在萬物
+&lt;p&gt;在以前計算機網絡並不是很發達的年代，要是設備沒有聯網，只能手工設置時間。而現在萬物互聯，電腦、手機、平板上運行的操作系統，已經 100% 支持自動配置時間，可以在「系統設置」裏面看到。&lt;br&gt;
     
     </summary>
     
