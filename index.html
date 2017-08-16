@@ -285,6 +285,180 @@
   
 
   <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/d0a36e33/">
+
+  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Xiaocrab">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="xiaocrab.net">
+    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/posts/d0a36e33/" itemprop="url">
+                  公共 NTP 服務器推薦
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-16T12:00:00+08:00">
+                2017-08-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/d0a36e33/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/d0a36e33/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/posts/d0a36e33/" class="leancloud_visitors" data-flag-title="公共 NTP 服務器推薦">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">閱讀次數 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>網絡時間協議（Network Time Protocol，簡稱 NTP）是在設備之間進行時鐘同步的一個協議。簡單來說，就是可以自動配置設備的時間，免去了手工設置時間的繁瑣步驟。</p>
+<p>在以前計算機網絡並不是很發達的年代，要是設備沒有聯網，只能手工設置時間。而現在萬物互聯，電腦、手機、平板上運行的操作系統，已經 100% 支持自動配置時間，可以在「系統設置」裏面看到。</p>
+<p><img src="https://okr5ln1ms.qnssl.com/20170816163656_3Dwvph_QQ20170816-163447@2x.jpeg" alt=""></p>
+<p>通常情況下，我們無需手工干預。但是假如操作系統提供的默認 NTP 服務器不可用，或者在其他需要手工配置 NTP 服務的設備（如打印機、網絡設備等）的情況下可以填入下面這些 NTP 服務器的地址。</p>
+<p>當然你也可以自建 NTP 服務器，為其他設備提供 NTP 受時服務。</p>
+<h2 id="pool-ntp-org"><a href="#pool-ntp-org" class="headerlink" title="pool.ntp.org"></a>pool.ntp.org</h2><p><a href="http://www.ntp.org/" rel="external nofollow noopener noreferrer" target="_blank">ntp.org</a> 提供的全球範圍內的 NTP 服務。</p>
+<ul>
+<li>按照區域劃分有 africa.pool.ntp.org、antarctica.pool.ntp.org、 asia.pool.ntp.org、europe.pool.ntp.org、north-america.pool.ntp.org、north-america.pool.ntp.org、south-america.pool.ntp.org 這些 NTP 服務器。</li>
+<li>細分到國家（地區）的 NTP 服務器可以 <a href="http://www.pool.ntp.org/zone/@" rel="external nofollow noopener noreferrer" target="_blank">在這裏</a> 查到。</li>
+</ul>
+<h2 id="time-nist-gov"><a href="#time-nist-gov" class="headerlink" title="time.nist.gov"></a>time.nist.gov</h2><p><a href="https://www.nist.gov/" rel="external nofollow noopener noreferrer" target="_blank">NIST (美國國家標準與技術研究院)</a> 提供的 NTP 服務器。還有 time-a.nist.gov、time-b.nist.gov、time-nw.nist.gov 可選。</p>
+<h2 id="time-apple-com"><a href="#time-apple-com" class="headerlink" title="time.apple.com"></a>time.apple.com</h2><p><a href="https://www.apple.com/" rel="external nofollow noopener noreferrer" target="_blank">Apple Inc.</a> 提供的 macOS 系統默認的 NTP 服務器。還有 time.asia.apple.com（亞洲）和 time.euro.apple.com（歐洲）兩個可選。</p>
+<h2 id="time-windows-com"><a href="#time-windows-com" class="headerlink" title="time.windows.com"></a>time.windows.com</h2><p><a href="https://www.microsoft.com/" rel="external nofollow noopener noreferrer" target="_blank">Microsoft Corporation.</a> 提供的 Windows 系統默認的 NTP 服務器。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/21a7a5cc/">
 
   <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -833,8 +1007,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-01T12:00:00+08:00">
-                2017-07-01
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-18T12:00:00+08:00">
+                2017-06-18
               </time>
             
 
@@ -914,9 +1088,9 @@
       
         
           <blockquote>
-<p>專用名詞特指某個事物，通常第一個字母大寫。但是在 IT 屆，有些專有名詞並沒有遵守這個規定。<br>如果在日常寫作之中，特別是在比較正式的場合，沒有正確的拼寫，該小寫的時候大寫，該空格的時候沒有空格等，會顯得不夠專業、不夠細緻。</p>
+<p>專有名詞特指某個事物，通常第一個字母大寫。但是在 IT 屆，有些專有名詞並沒有遵守這個規定。<br>如果在日常寫作之中，特別是在比較正式的場合，沒有正確的拼寫，該小寫的時候大寫，該空格的時候沒有空格等，會顯得不夠專業、不夠細緻。</p>
 </blockquote>
-<p>下面羅列了 IT 相關常用易錯專有名詞，拼寫以官方出處為準。</p>
+<p>下面羅列了 IT 相關常用易錯專有名詞，拼寫以<strong>官方出處為準</strong>。</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/posts/9b71d3fa/#more" rel="contents">
@@ -927,182 +1101,6 @@
         
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://xiaocrab.net/posts/88eec839/">
-
-  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xiaocrab">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="xiaocrab.net">
-    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="xiaocrab.net" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/88eec839/" itemprop="url">
-                  群暉 Synology DSM 第三方源 SynoCommunity 添加和使用教程
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-06T12:00:00+08:00">
-                2017-02-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分類於</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/88eec839/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/88eec839/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/posts/88eec839/" class="leancloud_visitors" data-flag-title="群暉 Synology DSM 第三方源 SynoCommunity 添加和使用教程">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">閱讀次數 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Synology 作為 NAS 屆的「蘋果公司」，以其 DSM 系統超贊的用戶體驗收攏了大批粉絲。甚至有不少人為了使用強大的 DSM 系統，專門在非群暉機器上安裝 DSM 系統，即「黑群暉」。好馬配好鞍，豐富且好用的套件資源也是其系統的一大特點。</p>
-<blockquote>
-<p>好用的 DSM 系統 + 好用的 DSM 套件 = 好用的 DSM 生態</p>
-</blockquote>
-<p>由於官方源提供的套件數量有限，如果我們想使用更多套件大致有兩種方式：</p>
-<ol>
-<li>單獨下載套件安裝程式，在「套件中心」直接安裝</li>
-<li>添加「第三方源」</li>
-</ol>
-<p>很顯然，添加第三方源是個絕佳的選擇。</p>
-<p>SynoCommunity 是由開發者發起的一個著名的 DSM 免費套件的發佈平台（第三方源）。<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/88eec839/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
 
     <div>
       
@@ -1172,7 +1170,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">16</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>
