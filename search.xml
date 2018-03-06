@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[韓國 Kdatacenter VPS 推薦]]></title>
+      <url>%2Fposts%2Fa2cc96bb%2F</url>
+      <content type="text"><![CDATA[介紹Kdatacenter 是一家成立於 2012 年的韓國主機商，屬於 Globalhost 旗下，提供 VPS 和獨立服務器，所有服務器都基於 SSD，支持 Windows，並且提供DDOS保護。韓國的網絡是最發達的，到全球特別是亞洲地區速度飛快，到中國速度堪比國內雙線，又免去了備案的煩惱，特別適合國內用戶。 推薦 VPS 配置： 指標 配置 CPU 1 vCPU RAM 1 GB SSD 100 GB Bandwidth Fixed 500 GB / 月 IPv4 1 OS Linux / Windows Price $19 / 月, $190 / 年 官方網站： https://www.kdatacenter.com/ 註冊這是Kdatacenter 官方目前給出的獲取優惠碼的方法，最高可以得到 20% 的折扣。 You can get some promotion codes according to quantity of links as below. * 10% promotion code: 1ea link x Blog/ BBS/ Forum etc. * Additional 10% promotion code: 2ea links x SNS - Your post in forum or BBS can be considered as an article in SNS. - A promotion coupon is available only one time. These coupons are used for recurring charge. 支持 PayPal 和 支付寶 付款，並且有中文客服。 現在就去註冊]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[公共 NTP 服務器推薦]]></title>
       <url>%2Fposts%2Fd0a36e33%2F</url>
       <content type="text"><![CDATA[網絡時間協議（Network Time Protocol，簡稱 NTP）是在設備之間進行時鐘同步的一個協議。簡單來說，就是可以自動配置設備的時間，免去了手工設置時間的繁瑣步驟。 在以前計算機網絡並不是很發達的年代，要是設備沒有聯網，只能手工設置時間。而現在萬物互聯，電腦、手機、平板上運行的操作系統，已經 100% 支持自動配置時間，可以在「系統設置」裏面看到。 通常情況下，我們無需手工干預。但是假如操作系統提供的默認 NTP 服務器不可用，或者在其他需要手工配置 NTP 服務的設備（如打印機、網絡設備等）的情況下可以填入下面這些 NTP 服務器的地址。 當然你也可以自建 NTP 服務器，為其他設備提供 NTP 受時服務。 pool.ntp.orgntp.org 提供的全球範圍內的 NTP 服務。 按照區域劃分有 africa.pool.ntp.org、antarctica.pool.ntp.org、 asia.pool.ntp.org、europe.pool.ntp.org、north-america.pool.ntp.org、north-america.pool.ntp.org、south-america.pool.ntp.org 這些 NTP 服務器。 細分到國家（地區）的 NTP 服務器可以 在這裏 查到。 time.nist.govNIST (美國國家標準與技術研究院) 提供的 NTP 服務器。還有 time-a.nist.gov、time-b.nist.gov、time-nw.nist.gov 可選。 time.apple.comApple Inc. 提供的 macOS 系統默認的 NTP 服務器。還有 time.asia.apple.com（亞洲）和 time.euro.apple.com（歐洲）兩個可選。 time.windows.comMicrosoft Corporation. 提供的 Windows 系統默認的 NTP 服務器。]]></content>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiaocrab.net/"/>
-  <updated>2017-08-16T13:37:15.000Z</updated>
+  <updated>2018-03-06T13:33:34.000Z</updated>
   <id>http://xiaocrab.net/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>韓國 Kdatacenter VPS 推薦</title>
+    <link href="http://xiaocrab.net/posts/a2cc96bb/"/>
+    <id>http://xiaocrab.net/posts/a2cc96bb/</id>
+    <published>2018-03-05T14:00:00.000Z</published>
+    <updated>2018-03-06T13:33:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;介紹&quot;&gt;&lt;a href=&quot;#介紹&quot; class=&quot;headerlink&quot; title=&quot;介紹&quot;&gt;&lt;/a&gt;介紹&lt;/h2&gt;&lt;p&gt;Kdatacenter 是一家成立於 2012 年的韓國主機商，屬於 Globalhost 旗下，提供 VPS 和獨立服務器，所有服務器都基
+    
+    </summary>
+    
+      <category term="信息技術" scheme="http://xiaocrab.net/categories/%E4%BF%A1%E6%81%AF%E6%8A%80%E8%A1%93/"/>
+    
+    
+      <category term="Korea" scheme="http://xiaocrab.net/tags/Korea/"/>
+    
+      <category term="VPS" scheme="http://xiaocrab.net/tags/VPS/"/>
+    
+  </entry>
   
   <entry>
     <title>公共 NTP 服務器推薦</title>
